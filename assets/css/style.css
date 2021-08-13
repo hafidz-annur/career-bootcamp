@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@font-face {
+    font-family: 'Apercu';
+    src: url('../font/career bootcamp font/Apercu Bold.woff') format('woff')
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.career {
+    background: url('../img/CB_background.webp');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.eligibility {
+    font-family: 'Apercu';
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+
+.sub-title {
+    font-size: 2em;
+}
+
+.choose {
+    margin-top: 2%;
+    width: 60%;
+}
+
+.data-science {
+    background: url('../img/laptop.webp');
+    height: auto;
+    background-repeat: no-repeat;
+    /* background-color: #fff; */
+    background-size: 100%;
+}
+
+.ds-title {
+    margin-top: 20vh;
+    font-size: 6em;
+    line-height: 0.75;
+    color: #1A2251;
+}
+
+.ds-date {
+    position: absolute;
+    margin-top: 21vh;
+    margin-left: 45vh;
+    padding: 10px 20px;
+    font-size: 3em;
+    line-height: 0.75;
+    border: 4px solid #A01E66;
+    border-radius: 40px;
+    color: #A01E66;
+}
+
+.ds-text {
+    font-size: 2em;
+    line-height: 1;
+    color: #1A2251;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    margin-top: -20px;
+    border-radius: 15px;
+}
+
+.accordion-button {
+    margin-left: -1px;
+    background: #f79520 !important;
+    font-size: 0.9em;
+    color: #fff !important;
+}
+
+.accordion-item {
+    background-color: #010a38b9;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.digital-market {
+    background: url('../img/hp.webp');
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.btn-border {
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 3px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.btn-bootcamp {
+    font-size: 1.8em;
+    border-radius: 5px;
+    padding: 10px 0;
+    background: rgb(192, 63, 41);
+    background: linear-gradient(313deg, rgba(192, 63, 41, 1) 0%, rgba(52, 57, 115, 1) 100%);
+}
+
+.btn-border:hover {
+    background: rgb(69, 41, 192);
+    background: linear-gradient(313deg, rgb(52, 57, 115, 1) 0%, rgb(115, 52, 60) 100%);
+    color: #fff;
+}
+
+.space {
+    height: 20vh;
+}
+
+.space-bottom {
+    height: 20vh;
+    background: red;
+}
+
+.about h3 {
+    font-size: 3.5em;
+}
+
+.about h5 {
+    font-size: 1.5em;
+}
+
+.about-desc {
+    font-size: 1.2em;
+}
+
+.footer {
+    background: #16489F;
+    color: #fff;
+    font-size: 18px;
+    padding: 70px 0;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
