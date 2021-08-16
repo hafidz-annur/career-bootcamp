@@ -33,11 +33,10 @@ body {
 }
 
 .data-science {
-    background: url('../img/laptop.webp');
+    background: #fff !important;
     height: auto;
-    background-repeat: no-repeat;
-    /* background-color: #fff; */
-    background-size: 100%;
+    margin-top: -25vh;
+    width: 100%;
 }
 
 .ds-title {
@@ -84,10 +83,8 @@ body {
 }
 
 .digital-market {
-    background: url('../img/hp.webp');
+    width: 100%;
     height: auto;
-    background-size: 100%;
-    background-repeat: no-repeat;
     background-color: #fff;
 }
 
