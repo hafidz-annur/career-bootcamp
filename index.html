@@ -171,6 +171,10 @@
                 width: 35%;
                 margin-top: 0% !important;
             }
+
+            .decor-bottom {
+                display: none;
+            }
         }
 
         .laptop {
@@ -192,11 +196,27 @@
         .about-ico {
             height: 65px;
         }
+
+        .decor-top {
+            position: absolute;
+            left: 0;
+            z-index: 0;
+            width: 60%;
+        }
+
+        .decor-bottom {
+            position: absolute;
+            right: 0;
+            margin-top: -27%;
+            z-index: 0;
+            width: 60%;
+        }
     </style>
 </head>
 
 <body>
     <div class="container-fluid career p-0">
+        <img src="assets/img/CB_decorasi atas.webp" class="decor-top">
         <div class="container">
             <div class="row justify-content-center py-5">
                 <div class="col-md-10">
@@ -480,6 +500,7 @@
         </div>
     </div>
     <div class="container-fluid footer">
+        <img src="assets/img/CB_decorasi bawah.webp" class="decor-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-3">
