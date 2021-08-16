@@ -16,11 +16,15 @@ body {
     background-attachment: fixed;
 }
 
+.title-img {
+    width: 120%;
+}
+
 .eligibility {
     font-family: 'Apercu';
     position: absolute;
     top: 20%;
-    right: 30%;
+    right: 17%;
 }
 
 .sub-title {
