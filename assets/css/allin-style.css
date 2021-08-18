@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@font-face {
+    font-family: 'Apercu';
+    src: url('../font/career bootcamp font/Apercu Bold.woff') format('woff')
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.career {
+    background: url('../img/CB_background.webp');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title-img {
+    width: 120%;
+}
+
+.eligibility {
+    font-family: 'Apercu';
+    position: absolute;
+    top: 20%;
+    right: 17%;
+}
+
+.sub-title {
+    font-size: 2em;
+}
+
+.choose {
+    margin-top: 2%;
+    width: 60%;
+}
+
+.data-science {
+    background: #fff !important;
+    height: auto;
+    margin-top: -25vh;
+    width: 100%;
+}
+
+.ds-title {
+    margin-top: 20vh;
+    font-size: 6em;
+    line-height: 0.75;
+    color: #1A2251;
+}
+
+.ds-date {
+    position: absolute;
+    margin-top: 21vh;
+    margin-left: 45vh;
+    padding: 10px 20px;
+    font-size: 3em;
+    line-height: 0.75;
+    border: 4px solid #A01E66;
+    border-radius: 40px;
+    color: #A01E66;
+}
+
+.ds-text {
+    font-size: 2em;
+    line-height: 1;
+    color: #1A2251;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    margin-top: -20px;
+    border-radius: 15px;
+}
+
+.accordion-button {
+    margin-left: -1px;
+    background: #f79520 !important;
+    font-size: 0.9em;
+    color: #fff !important;
+}
+
+.accordion-item {
+    background-color: #010a38b9;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.digital-market {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.btn-border {
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 3px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.btn-bootcamp {
+    font-size: 1.8em;
+    border-radius: 5px;
+    padding: 10px 0;
+    background: rgb(192, 63, 41);
+    background: linear-gradient(313deg, rgba(192, 63, 41, 1) 0%, rgba(52, 57, 115, 1) 100%);
+}
+
+.btn-border:hover {
+    background: rgb(69, 41, 192);
+    background: linear-gradient(313deg, rgb(52, 57, 115, 1) 0%, rgb(115, 52, 60) 100%);
+    color: #fff;
+}
+
+.space {
+    height: 20vh;
+}
+
+.space-bottom {
+    height: 20vh;
+    background: red;
+}
+
+.about h3 {
+    font-size: 3.5em;
+}
+
+.about h5 {
+    font-size: 1.5em;
+}
+
+.about-desc {
+    font-size: 1.2em;
+}
+
+.footer {
+    background: #16489F;
+    color: #fff;
+    font-size: 18px;
+    padding: 70px 0;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 320px) {
+    .ds-date {
+        position: relative;
+        margin-left: 0;
+        margin-top: 18vh;
+        display: flex;
+        width: 75% !important;
+        text-align: center !important;
+        font-size: 18px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 325px) {
+    .ds-date {
+        position: relative;
+        margin-left: 0;
+        margin-top: 16vh;
+        display: flex;
+        width: 65% !important;
+        text-align: center !important;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 400px) {
+    .ds-date {
+        position: relative;
+        margin-left: 0;
+        margin-top: 15vh;
+        display: flex;
+        width: 58%;
+        text-align: center !important;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .logo {
+        width: 30% !important;
+    }
+    .title-img {
+        margin-top: -5vh;
+        margin-left: 5%;
+        width: 70% !important;
+    }
+    .eligibility {
+        right: 10px;
+        top: 12%;
+    }
+    .eligibility h5 {
+        font-size: 13px;
+    }
+    .eligibility h2 {
+        font-size: 18px;
+    }
+    .eligibility h1 {
+        font-size: 22px;
+    }
+    .sub-title {
+        font-size: 20px;
+    }
+    .choose {
+        margin-top: -20px;
+        width: 70%;
+    }
+    .data-science {
+        margin-top: -5%;
+        background-color: #fff;
+    }
+    .ds-title {
+        margin-top: 5vh;
+        font-size: 40px;
+    }
+    .ds-text {
+        font-size: 19px;
+    }
+    .career-ico {
+        width: 23% !important;
+    }
+    .accordion-button {
+        font-size: 18px;
+    }
+    .accordion-item {
+        font-size: 17px;
+    }
+    .btn-bootcamp {
+        font-size: 17px;
+    }
+    .dm-content {
+        padding-left: 13vh;
+    }
+    .dm-ico {
+        width: 30% !important;
+    }
+    .space {
+        height: 5vh;
+    }
+    .about h3 {
+        font-size: 22px;
+    }
+    .about h5 {
+        font-size: 16px;
+    }
+    .about-desc {
+        font-size: 15px;
+    }
+    .left-mobile {
+        margin-left: 7%;
+    }
+    .laptop, .hp {
+        width: 35%;
+        margin-top: 0% !important;
+    }
+    .decor-bottom {
+        display: none;
+    }
+    .about-us {
+        margin-top: -10%;
+        padding-top: 12%;
+        background: rgb(225, 131, 39) !important;
+        background: linear-gradient(83deg, rgba(225, 131, 39, 1) 0%, rgba(52, 57, 115, 1) 100%) !important;
+    }
+}
+
+.laptop {
+    position: absolute;
+    display: inline;
+    margin-top: -2%;
+    right: 0;
+    z-index: 0;
+}
+
+.hp {
+    position: absolute;
+    display: inline;
+    margin-top: -2%;
+    left: 0;
+    z-index: 0;
+}
+
+.about-ico {
+    height: 65px;
+}
+
+.decor-top {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    width: 60%;
+}
+
+.decor-bottom {
+    position: absolute;
+    display: inline;
+    right: 0;
+    margin-top: -33%;
+    z-index: 0;
+    width: 60%;
+}
+
+.about-us {
+    margin-top: -10%;
+    padding-top: 12%;
+    background: url('../img/CB_background.webp');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-image: url('../img/list.webp');
+    line-height: 1.5em;
+}
