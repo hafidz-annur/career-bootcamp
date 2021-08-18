@@ -277,6 +277,16 @@ body {
         font-size: 15px;
         padding: 9px 10px;
     }
+    .btn-dm-price {
+        margin-left: -10px;
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 5px;
+        /* padding: 10px 30px; */
+        color: #f79520;
+        border: 0;
+        background: none;
+    }
     .btn-bootcamp {
         font-size: 17px;
     }
