@@ -84,6 +84,7 @@ body {
     background-color: #010a38b9;
     color: #fff;
     font-size: 1.4em;
+    position: relative;
 }
 
 .digital-market {
@@ -279,6 +280,7 @@ body {
 }
 
 .laptop {
+    width: 35%;
     position: absolute;
     display: inline;
     margin-top: -2%;
@@ -287,6 +289,7 @@ body {
 }
 
 .hp {
+    width: 30%;
     position: absolute;
     display: inline;
     margin-top: -2%;
