@@ -288,12 +288,15 @@ body {
         background: none;
     }
     .btn-bootcamp {
-        margin-top: -10px;
         font-size: 17px;
-        width: 90% !important;
+        width: 71% !important;
         display: block;
+        margin-top: -10px !important;
         text-align: center;
-        padding: 5px 10px;
+        padding: 5px 0;
+    }
+    .btn-dm-bootcamp {
+        width: 90% !important;
     }
     .dm-content {
         padding-left: 13vh;
