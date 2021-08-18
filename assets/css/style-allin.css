@@ -169,7 +169,18 @@ body {
         margin-left: 0;
         margin-top: 16vh;
         display: flex;
-        width: 65% !important;
+        width: 62% !important;
+        text-align: center !important;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+    .dm-date {
+        position: relative;
+        margin-left: 0;
+        margin-top: 16vh;
+        display: flex;
+        width: 90% !important;
         text-align: center !important;
         font-size: 20px;
         padding: 5px 10px;
@@ -184,6 +195,17 @@ body {
         margin-top: 15vh;
         display: flex;
         width: 58%;
+        text-align: center !important;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+    .dm-date {
+        position: relative;
+        margin-left: 0;
+        margin-top: 15vh;
+        display: flex;
+        width: 62% !important;
         text-align: center !important;
         font-size: 20px;
         padding: 5px 10px;
