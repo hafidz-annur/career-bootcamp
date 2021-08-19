@@ -75,6 +75,7 @@ body {
 
 .accordion-button {
     margin-left: -1px;
+    width: 100.2%;
     background: #f79520 !important;
     font-size: 0.9em;
     color: #fff !important;
@@ -108,15 +109,39 @@ body {
 }
 
 .btn-bootcamp {
+    display: block;
     position: relative;
     z-index: 5;
     color: #fff;
     text-decoration: none;
     font-size: 1.8em;
-    padding: 10px 55px 10px 65px;
+    width: 54%;
+    text-align: center;
+    line-height: 0.8;
+    padding: 15px 0;
     border-radius: 10px;
     background: rgb(192, 63, 41);
     background: linear-gradient(313deg, rgba(192, 63, 41, 1) 0%, rgba(52, 57, 115, 1) 100%);
+}
+
+.btn-dm-bootcamp {
+    display: block;
+    position: relative;
+    z-index: 5;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(192, 63, 41);
+    background: linear-gradient(313deg, rgba(192, 63, 41, 1) 0%, rgba(52, 57, 115, 1) 100%);
+    line-height: 0.8;
+    padding: 15px 0px;
+}
+
+.btn-bootcamp small {
+    font-size: 20px;
 }
 
 .btn-bootcamp:hover {
@@ -268,6 +293,7 @@ body {
     }
     .accordion-button {
         font-size: 18px;
+        width: 100.5% !important;
     }
     .accordion-item {
         font-size: 17px;
@@ -293,10 +319,14 @@ body {
         display: block;
         margin-top: -10px !important;
         text-align: center;
-        padding: 5px 0;
+        line-height: 1;
+        padding: 10px 0;
     }
     .btn-dm-bootcamp {
         width: 90% !important;
+    }
+    .btn-bootcamp small {
+        font-size: 15px;
     }
     .dm-content {
         padding-left: 13vh;
