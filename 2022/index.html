@@ -49,6 +49,20 @@
 </head>
 
 <body>
+    <div class="wa">
+        <img src="assets/img/wa.png" alt="Whatsapp">
+    </div>
+    <div class="wa-list d-none">
+        <a href="#" class="wa-item">
+            Phone Number 1
+        </a>
+        <a href="#" class="wa-item">
+            Phone Number 2
+        </a>
+    </div>
+    <div class="register">
+        Register Now
+    </div>
     <div class="container-fluid career p-0">
         <img src="assets/img/CB_decorasi atas.webp" class="decor-top">
         <div class="container">
@@ -511,6 +525,18 @@
 <script>
     $('.career-ico').hover(function () {
         $(this).toggleClass('animate__animated animate__headShake')
+    })
+
+    $('.wa').click(function(){
+        if($('.wa-list').hasClass('d-none')) {
+            $('.wa-list').removeClass('d-none');
+            $('.wa-list').show('fade');
+            $('.wa-list').addClass('d-block');
+        } else {
+            $('.wa-list').hide('fade');
+            $('.wa-list').removeClass('d-block');
+            $('.wa-list').addClass('d-none');
+        }
     })
 </script>
 
