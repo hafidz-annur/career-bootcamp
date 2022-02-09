@@ -33,7 +33,7 @@ body {
 }
 
 .sub-title {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .choose {
@@ -80,11 +80,11 @@ body {
 }
 
 .accordion-button {
-    margin-left: -1px;
-    width: 100.2%;
     background: #f79520 !important;
+    margin: -1;
     font-size: 0.9em;
     color: #fff !important;
+    border-radius: 10px 10px 0 0 !important;
 }
 
 .accordion-item {
@@ -123,7 +123,6 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 1.8em;
-    width: 100%;
     text-align: center;
     line-height: 0.8;
     padding: 15px 0;
@@ -209,7 +208,7 @@ body {
         padding: 5px 10px;
         border: 2px solid #A01E66;
     }
-    .dm-date {
+    .fs-date {
         position: relative;
         margin-left: 0;
         margin-top: 16vh;
@@ -238,7 +237,7 @@ body {
         padding: 5px 10px;
         border: 2px solid #A01E66;
     }
-    .dm-date {
+    .fs-date {
         position: relative;
         margin-left: 0;
         margin-top: 15vh;
@@ -336,10 +335,10 @@ body {
     .btn-bootcamp small {
         font-size: 15px;
     }
-    .dm-content {
+    .fs-content {
         padding-left: 13vh;
     }
-    .dm-ico {
+    .fs-ico {
         width: 30% !important;
     }
     .space {
@@ -427,10 +426,10 @@ body {
     background-attachment: fixed;
 }
 
-ul {
+/* ul {
     list-style-image: url('../img/list.webp');
     line-height: 1.5em;
-}
+} */
 
 .accordion {
     position: relative;

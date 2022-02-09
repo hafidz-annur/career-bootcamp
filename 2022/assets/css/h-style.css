@@ -1,0 +1,102 @@
+.benefit {
+    font-size: 1.6em;
+}
+
+.benefit-list {  
+    width: 70%;
+    padding: 0;
+    border-radius: 25px;
+    background: #3d5fcf;
+    padding: 5px 0px 7px 0;
+}
+
+.benefit-title {
+    display: inline;
+    background:#EB8725 ;
+    border-radius: 25px;
+    padding: 5px 25px;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: white;
+    border:4px solid #ffae4b;
+}
+
+.benefit-text {
+    display: inline;
+    color: #fff;
+    border-radius: 25px;
+    margin-left:10px;
+}
+
+.online {
+    position: absolute;
+    margin-top: -1%;
+    width: 13%;
+    right: 20%;
+}
+
+.fs {
+    width: 25%;
+    position: absolute;
+    display: inline;
+    margin-top: -18vh;
+    left: -10px;
+    z-index: 4;
+}
+
+.fs-content {
+    margin-top: -10vh;
+}
+
+.fs-btn {
+    width: 80%;
+}
+
+.fs-early {
+    font-size: 1.4em;
+    padding-left: 10%;
+}
+
+.fs-desc {
+    font-size: 1.8em;
+    color : #E98621;
+    margin-bottom: 30px;
+}
+
+.speaker {
+    font-size: 2.1em;
+    font-weight: bold;
+    color : #E98621;
+}
+
+.speaker-photo {
+    width: 85%;
+}
+
+.speaker-name {
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+
+.speaker-item {
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #A01E66;
+}
+
+.speaker-list {
+    list-style-image: url('../img/listblue.webp');
+    line-height: 1.3em;
+}
+
+.fs-header {
+    font-size: 1.2em !important;
+}
+
+.fs-body ul li {
+    font-size: 0.9em !important;
+}
