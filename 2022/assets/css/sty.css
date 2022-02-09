@@ -22,7 +22,7 @@ body {
 }
 
 .title-img {
-    width: 120%;
+    width: 100%;
 }
 
 .eligibility {
@@ -94,7 +94,7 @@ body {
     position: relative;
 }
 
-.digital-market {
+.food-science {
     width: 100%;
     margin-top: -20vh;
     background-color: rgb(255, 255, 255);
@@ -260,12 +260,11 @@ body {
         width: 30% !important;
     }
     .title-img {
-        margin-top: -5vh;
-        margin-left: 5%;
+        margin-left: 3%;
         width: 70% !important;
     }
     .eligibility {
-        right: 10px;
+        right: 20px;
         top: 12%;
     }
     .eligibility h5 {
@@ -278,7 +277,7 @@ body {
         font-size: 22px;
     }
     .sub-title {
-        font-size: 20px;
+        font-size: 1em;
     }
     .choose {
         margin-top: -20px;
@@ -335,9 +334,6 @@ body {
     .btn-bootcamp small {
         font-size: 15px;
     }
-    .fs-content {
-        padding-left: 13vh;
-    }
     .fs-ico {
         width: 30% !important;
     }
@@ -353,9 +349,9 @@ body {
     .about-desc {
         font-size: 15px;
     }
-    .left-mobile {
+    /* .left-mobile {
         margin-left: 7%;
-    }
+    } */
     .laptop, .hp {
         width: 35%;
         margin-top: 0% !important;
