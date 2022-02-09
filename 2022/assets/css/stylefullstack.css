@@ -1,0 +1,146 @@
+.deep-dive {
+    font-weight: 600;
+}
+
+.career-icoo{
+    width: 100% !important;
+
+}
+
+.ds-date-second {
+    position: absolute;
+    margin-top: 7vh;
+    padding: 10px 20px;
+    font-size: 3em;
+    line-height: 0.75;
+    border: 4px solid #A01E66;
+    border-radius: 40px;
+    color: #A01E66;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .ds-date-second {
+        position: relative;
+        margin-left: 0;
+        margin-top: 18vh;
+        display: flex;
+        width: 75% !important;
+        text-align: center !important;
+        font-size: 18px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+
+    .early {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 325px) {
+    .ds-date-second {
+        position: relative;
+        margin-left: 0;
+        margin-top: 16vh;
+        display: flex;
+        width: 62% !important;
+        text-align: center !important;
+        font-size: 18px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+    .dm-date {
+        position: relative;
+        margin-left: 0;
+        margin-top: 16vh;
+        display: flex;
+        width: 90% !important;
+        text-align: center !important;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+
+    .early {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 400px) {
+    .ds-date-second {
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0vh;
+        display: flex;
+        width: 40%;
+        text-align: center !important;
+        font-size: 18px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+    .dm-date {
+        position: relative;
+        margin-left: 0;
+        margin-top: 15vh;
+        display: flex;
+        text-align: center;
+        width: 80% !important;
+        text-align: center !important;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 2px solid #A01E66;
+    }
+
+    .early {
+        font-size: 13px;
+    }
+}
+
+.btn-bootcamp-second {
+    display: block;
+    position: relative;
+    z-index: 5;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+    width: 100%;
+    text-align: center;
+    line-height: 0.8;
+    padding: 15px 0;
+    border-radius: 30px;
+    border:2px solid #fff;
+    font-weight: 200;
+    background: rgb(192, 63, 41);
+    background: linear-gradient(313deg, rgba(192, 63, 41, 1) 0%, rgba(52, 57, 115, 1) 100%);
+    transition: all 0.5s ease-in-out
+}
+
+.btn-bootcamp-second small {
+    font-size: 20px;
+}
+
+.btn-bootcamp-second:hover {
+    background: rgb(69, 41, 192);
+    background: linear-gradient(313deg, rgb(52, 57, 115, 1) 0%, rgb(115, 52, 60) 100%);
+    color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+    .btn-bootcamp-second {
+        font-size: 17px;
+        width: 60% !important;
+        display: block;
+        margin-top: 2px !important;
+        text-align: center;
+        line-height: 1;
+        padding: 10px 0;
+    }
+    
+    .btn-bootcamp-second small {
+        font-size: 15px;
+    }
+
+    .dm-content-baru {
+        padding-left: 3vh;
+    }
+}
