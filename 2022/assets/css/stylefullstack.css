@@ -3,7 +3,7 @@
 }
 
 .career-icoo{
-    width: 100% !important;
+    width: 70%;
 
 }
 
@@ -40,6 +40,10 @@
     .early {
         font-size: 13px;
     }
+
+    .career-icoo {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 400px) and (min-width: 325px) {
@@ -68,6 +72,10 @@
 
     .early {
         font-size: 13px;
+    }
+
+    .career-icoo {
+        width: 100%;
     }
 }
 
@@ -98,6 +106,10 @@
 
     .early {
         font-size: 13px;
+    }
+
+    .career-icoo {
+        width: 100%;
     }
 }
 
