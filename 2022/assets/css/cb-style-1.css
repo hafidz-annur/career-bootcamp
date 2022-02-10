@@ -45,7 +45,8 @@ body {
     background: #fff !important;
     height: auto;
     padding-top: 10vh;
-    padding-left: 18%;
+    padding-left: 17%;
+    padding-right: 4%;
     width: 100%;
 }
 
@@ -292,6 +293,7 @@ body {
     .full-stack {
         margin-top: -5%;
         padding-left: 0;
+        padding-right: 0;
         background-color: #fff;
     }
     .ds-title {
