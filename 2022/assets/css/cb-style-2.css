@@ -123,6 +123,11 @@
     font-size: 1em !important;
 }
 
+.fs-body {
+    height: 150px;
+    overflow: hidden;
+}
+
 .fs-body ul li {
     font-size: 0.8em !important;
     margin-left:-10px;
@@ -188,7 +193,8 @@
         width: 80%;
         font-size: 0.9em;
         padding-left: 0%;
-        text-align: center;
+        text-align: left;
+        margin-top:5px;
     }
 
     .speaker {
@@ -228,6 +234,10 @@
 
     .contact {
         font-size: 0.6em;
+    }
+
+    .fs-body {
+        height: auto;
     }
 }
 
