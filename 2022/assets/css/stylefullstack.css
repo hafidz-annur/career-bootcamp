@@ -148,10 +148,13 @@
         width: 65% !important;
         display: block;
         margin-top: 2px !important;
-        margin-left: 70px;
         text-align: center;
         line-height: 1;
         padding: 10px 0;
+    }
+
+    .btn-bottom {
+        margin-left: 60px !important;
     }
     
     .btn-bootcamp-second small {
