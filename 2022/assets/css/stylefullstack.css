@@ -180,4 +180,13 @@
     .dm-content-baru {
         padding-left: 3vh;
     }
+
+    .description-fullstack {
+        padding-right: 15vh;
+    }
+
+    .description-food {
+        padding-right: 1vh;
+    }
+    
 }
