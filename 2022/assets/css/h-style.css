@@ -211,6 +211,10 @@
     .fs-desc {
         font-size: 1.2em;
     }
+
+    .contact {
+        font-size: 0.6em;
+    }
 }
 
 .wa {
@@ -275,5 +279,5 @@
 }
 
 .contact {
-    font-size: 15px;
+    font-size: 0.6em;
 }
