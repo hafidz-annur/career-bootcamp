@@ -106,11 +106,12 @@
 }
 
 .fs-header {
-    font-size: 1.2em !important;
+    font-size: 1em !important;
 }
 
 .fs-body ul li {
-    font-size: 0.9em !important;
+    font-size: 0.8em !important;
+    margin-left:-10px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -166,7 +167,7 @@
     }
 
     .fs-btn {
-        width: 80% !important;
+        width: 90% !important;
     }
 
     .fs-early {
@@ -257,9 +258,11 @@
 .register {
     position: fixed;
     border-radius: 20px;
-    background: rgb(221, 221, 221);
+    background: #232C66;
+    color: #fff;
+    border: 2px solid #E98621;
     right: 20px;
-    bottom: 20px;
+    bottom: 15px;
     z-index: 99999;
     cursor: pointer;
     padding: 5px 20px;
@@ -269,4 +272,8 @@
 .register:hover {
     background: #E98621;
     color: #000;
+}
+
+.contact {
+    font-size: 15px;
 }
