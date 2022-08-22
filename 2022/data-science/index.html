@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Career Bootcamp | Data Science 2.0</title>
+    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
     <!-- style  -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/mobile.css">
@@ -16,6 +17,8 @@
         integrity="sha256-sB1O2oXn5yaSW1T/92q2mGU86IDhZ0j1Ya8eSv+6QfM=" crossorigin="anonymous">
 
     <!-- javascript  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
@@ -32,14 +35,37 @@
         style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
     <script src="https://static.mailerlite.com/js/w/webforms.min.js?v7316d10e2931a97c7b0f5c7e7e7be3ea"
         type="text/javascript"></script>
+
+    <style>
+        .preload {
+            height: 100vh;
+            width: 100%;
+            background: #fff;
+            position: fixed;
+            text-align: center;
+            z-index: 99999;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="preload">
+        <div class="container h-100">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-md-2 col-5 text-center">
+                    <img src="assets/img/loading.gif" alt="" class="w-50">
+                    <img src="assets/img/all-in.gif" alt="" class="w-100" style="margin-top:-15px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <input type="checkbox" id="check"> <label class="chat-btn" for="check"> <i class="fa fa-commenting-o comment"></i>
         <i class="fa fa-close close"></i> </label>
     <div class="wrapper-chat">
         <div class="header">
-            <h6 class="my-0 py-0">Let's Chat Us</h6>
+            <h6 class="my-0 py-0">Contact Us</h6>
         </div>
         <div class="text-center p-2">
             <a class="wa-list"
@@ -173,7 +199,7 @@
 
         <section id="schedule">
             <div class="container">
-                <section class="splide pb-5" aria-label="Splide Basic HTML Example">
+                <section class="splide pb-5" id="slideSchedule">
                     <div class="splide__track">
                         <ul class="splide__list">
                             <!-- Week 1  -->
@@ -639,11 +665,67 @@
         <section id="testimonial">
             <div class="container">
                 <h3 class="faq-title text-center">Testimonials</h3>
-                <div class="row">
-                    <div class="col-md-12">
 
+                <section class="splide mb-5" id="slideTestimonial">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="position-relative mt-5">
+                                    <img src="assets/img/awards.png" class="test-icon">
+                                    <div class="card test-card h-100">
+                                        <div class="card-body">
+                                            <h5 class="test-user">
+                                                Aurelia Catherine Somantri
+                                            </h5>
+                                            <h6 class="test-desc">
+                                                It has been fun! I learnt a lot about Python and gained a deeper
+                                                knowledge about
+                                                Data
+                                                Science!
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="position-relative mt-5">
+                                    <img src="assets/img/awards.png" class="test-icon">
+                                    <div class="card test-card h-100">
+                                        <div class="card-body">
+                                            <h5 class="test-user">
+                                                Arsha Atallula Putra Muluk
+                                            </h5>
+                                            <h6 class="test-desc">
+                                                It was a very good program! I learned a lot of new things about Data
+                                                Science. The
+                                                experience was very unique and easy to
+                                                follow!
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="position-relative mt-5">
+                                    <img src="assets/img/awards.png" class="test-icon">
+                                    <div class="card test-card h-100">
+                                        <div class="card-body">
+                                            <h5 class="test-user">
+                                                Victoria Vivian Chan
+                                            </h5>
+                                            <h6 class="test-desc">
+                                                It's very good and it fits my needs perfectly! It also gives me the
+                                                opportunity to
+                                                learn directly from the industry
+                                                experts!
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                </div>
+                </section>
             </div>
         </section>
 
@@ -762,9 +844,17 @@
         </div>
     </section>
 
+    <script>
+        function preloader() {
+            $(".preload").fadeOut()
+        }
+
+        setTimeout(preloader, 2000);
+    </script>
+
     <!-- Splide  -->
     <script>
-        new Splide('.splide', {
+        new Splide('#slideSchedule', {
             autoplay: true,
             iterval: 500,
             pauseOnHover: false,
@@ -778,6 +868,23 @@
                 640: {
                     gap: 10,
                     padding: { left: 0, right: 20 }
+                },
+            },
+        }).mount();
+
+        new Splide('#slideTestimonial', {
+            perPage: 3,
+            width: '100%',
+            height: '50%',
+            gap: 20,
+            arrows: false,
+            breakpoints: {
+                640: {
+                    perPage: 1,
+                    autoplay: true,
+                    interval: 500,
+                    pauseOnHover: false,
+                    pauseOnFocus: false,
                 },
             },
         }).mount();

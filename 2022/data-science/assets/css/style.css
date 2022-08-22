@@ -251,6 +251,43 @@ body {
     padding: 100px 0;
 }
 
+.test-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -15px;
+    margin: auto;
+    width: 40px;
+    z-index: 9999;
+}
+
+.test-card {
+    background: #DC8B3D !important;
+    color: #fff;
+    border: 0 !important;
+    border-bottom: 4px solid #1B224D !important;
+    padding-top: 20px !important;
+    text-align: center;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.test-user {
+    font-family: 'coolvetica' !important;
+    font-weight: 100s !important;
+    letter-spacing: 1px;
+    color: #1B224D;
+}
+
+.test-card:hover {
+    background: #26387A !important;
+    border-bottom: 4px solid #fff !important;
+}
+
+.test-card:hover .test-user {
+    color: #DC8B3D;
+}
+
 #about {
     padding: 50px 0;
     text-align: center;
