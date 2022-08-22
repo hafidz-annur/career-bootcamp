@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('../font/career bootcamp font/Apercu Bold.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('../font/career bootcamp font/coolvetica rg.ttf') format('woff')
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    background: url('../img/cb_bg.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.wrapper {
+    padding: 0 13%;
+}
+
+.form-control {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+#banner {
+    height: 100vh;
+    padding: 50px 0px;
+}
+
+.banner-logo {
+    margin-left: -10px;
+    width: 150px;
+}
+
+.banner-title {
+    font-size: 7em;
+    font-family: 'coolvetica' !important;
+    line-height: .9em;
+    text-shadow: 2px 0 #DC8B3D, 2px 2px #DC8B3D;
+    color: #27377C;
+    margin-left: -10px;
+}
+
+.banner-desc {
+    color: #27377C;
+    font-size: 2em;
+    text-align: justify;
+}
+
+.banner-grade {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'coolvetica' !important;
+    color: #26387A;
+}
+
+.banner-grade h5 {
+    font-size: 1.3em;
+    font-weight: normal !important;
+}
+
+.banner-grade h4 {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: normal !important;
+}
+
+#speaker {
+    padding: 50px 0px 100px 0;
+}
+
+.btn-speaker {
+    font-size: 1.6em !important;
+    font-weight: normal !important;
+    background: rgb(63, 68, 134);
+    background: linear-gradient(90deg, rgba(63, 68, 134, 1) 0%, rgba(190, 64, 39, 1) 100%);
+    color: #fff !important;
+    padding: 5px 25px 10px 25px !important;
+    border-radius: 30px !important;
+    border: 3px solid rgb(201, 201, 201) !important;
+    width: 100%;
+    line-height: 1em !important;
+    font-family: 'coolvetica' !important;
+}
+
+.info-title {
+    position: relative;
+    background: #1B224D;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.2em;
+    padding: 5px 20px 10px 20px;
+    display: inline;
+    z-index: 9999;
+    border-radius: 10px;
+    font-family: 'coolvetica' !important;
+}
+
+.info .card {
+    margin-top: -10px;
+    padding-top: 10px;
+    background: #26387A;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+
+#content {
+    padding: 50px 0;
+}
+
+.content-title {
+    font-size: 6em;
+    margin-left: -10px;
+    color: #27377C;
+    font-family: 'coolvetica' !important;
+}
+
+.content-desc {
+    color: #27377C;
+    font-size: 1.4em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.content-career {
+    font-size: 1.8em;
+}
+
+#schedule {
+    padding: 100px 0px;
+}
+
+.card-schedule {
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 5px;
+}
+
+.week {
+    font-family: 'coolvetica' !important;
+    font-size: 3em;
+}
+
+.time {
+    font-size: 1.5em;
+    font-family: 'coolvetica' !important;
+}
+
+.date {
+    background: #fff;
+    border: 3px solid #DC8B3D;
+    border-radius: 20px;
+    padding: 5px 35px;
+    font-size: 1.5em;
+    font-weight: normal;
+    display: inline;
+    font-family: 'coolvetica' !important;
+}
+
+.learn-list {
+    list-style: none;
+}
+
+.learn-list li::before {
+    content: "🟠";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    fill: #DC8B3D !important;
+    color: #DC8B3D !important;
+    font-size: .5em;
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 2em;
+    /* Also needed for space (tweak if needed) */
+    margin-top: -5px !important;
+    margin-left: -3.5em;
+    /* Also needed for space (tweak if needed) */
+    vertical-align: middle;
+}
+
+.sublist {
+    list-style: none;
+}
+
+.sublist li::before {
+    content: "▷";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #FF6723 !important;
+    font-size: .7em;
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1.2em;
+    /* Also needed for space (tweak if needed) */
+    margin-top: -5px !important;
+    margin-left: -2.7em;
+    /* Also needed for space (tweak if needed) */
+    vertical-align: middle;
+}
+
+#faq {
+    padding: 0 0 100px 0;
+}
+
+.faq-title {
+    font-size: 4em;
+    color: #26387A;
+    font-family: 'coolvetica' !important;
+}
+
+.accordion, .accordion-item {
+    border: none !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+    outline: none !important;
+    border-bottom: 2px solid #DC8B3D !important;
+    font-size: .6em !important;
+}
+
+.accordion-body {
+    font-size: 1.1em;
+}
+
+.accordion-button {
+    background: #26387A !important;
+    color: #fff !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background: rgb(63, 68, 134);
+    background: linear-gradient(90deg, rgba(63, 68, 134, 1) 0%, rgba(190, 64, 39, 1) 100%) !important;
+    color: #fff !important;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+#testimonial {
+    padding: 100px 0;
+}
+
+#about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h5 {
+    font-size: 1.6em;
+}
+
+.about-desc {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.about-icon {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+
+.about-icon img {
+    width: 100%;
+}
+
+#footer {
+    background: #27377C;
+    padding: 50px 0;
+    color: #fff;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+}

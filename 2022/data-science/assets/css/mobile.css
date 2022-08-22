@@ -1,0 +1,111 @@
+@media only screen and (max-width: 700px) {
+
+    body {
+        padding: 0;
+    }
+
+    .wrapper {
+        padding: 0 3%;
+    }
+
+    #banner {
+        height: auto;
+    }
+
+    .banner-title {
+        font-size: 2.3em;
+        line-height: 1.1em;
+    }
+
+    .banner-desc {
+        font-size: 1.1em;
+        line-height: 1.5em;
+    }
+
+    .banner-grade h5 {
+        font-size: 1em;
+    }
+
+    .banner-grade h4 {
+        font-size: 1.3em;
+    }
+
+
+    #speaker {
+        height: auto;
+        padding: 0px;
+    }
+
+    .btn-speaker {
+        font-size: 1.2em !important;
+        line-height: 1.2em !important;
+    }
+
+    .info-title {
+        font-size: 1.1em;
+    }
+
+    .info .card {
+        font-size: 1em;
+    }
+
+    #content {
+        padding: 50px 0;
+    }
+
+    .content-title {
+        font-size: 2em;
+        margin-left: -2px;
+    }
+
+    .content-desc {
+        font-size: 1.1em;
+        line-height: 1.5em;
+    }
+
+    .content-career {
+        font-size: 1.8em;
+    }
+
+    #schedule {
+        padding: 100px 0px;
+    }
+
+    .week {
+        font-size: 1.4em;
+    }
+
+    .time {
+        font-size: .9em;
+    }
+
+    .date {
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+
+    .faq-title {
+        font-size: 2em;
+    }
+
+    .accordion-button {
+        font-size: .7em !important;
+    }
+
+    .accordion-body {
+        font-size: 1em;
+    }
+
+    #about {
+        padding: 50px 0;
+    }
+
+    #about h5 {
+        font-size: 1.2em;
+    }
+
+    .about-desc {
+        font-size: 1em;
+        line-height: 1em;
+    }
+}
