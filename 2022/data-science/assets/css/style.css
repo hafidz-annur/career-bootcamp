@@ -12,15 +12,14 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif !important;
-    background: url('../img/cb_bg.webp');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top;
+    background: #A3B9E2 !important;
     background-size: 100%;
 }
 
 .wrapper {
-    padding: 0 13%;
+    padding: 0;
+    background: rgb(166, 186, 218);
+    background: linear-gradient(184deg, rgba(166, 186, 218, 1) 0%, rgba(231, 135, 36, 1) 100%);
 }
 
 .form-control {
@@ -30,7 +29,10 @@ body {
 
 #banner {
     height: 100vh;
-    padding: 50px 0px;
+    padding: 50px 13%;
+    background: url('../img/bg-header.webp');
+    background-position: top;
+    background-size: cover;
 }
 
 .banner-logo {
@@ -39,18 +41,19 @@ body {
 }
 
 .banner-title {
-    font-size: 7em;
+    font-size: 8em;
     font-family: 'coolvetica' !important;
     line-height: .9em;
     text-shadow: 2px 0 #DC8B3D, 2px 2px #DC8B3D;
-    color: #27377C;
+    color: #fff;
     margin-left: -10px;
 }
 
 .banner-desc {
-    color: #27377C;
+    color: #fff;
     font-size: 2em;
-    text-align: justify;
+    letter-spacing: 0px;
+    margin-left: -10px;
 }
 
 .banner-grade {
@@ -58,7 +61,7 @@ body {
     top: 0;
     right: 0;
     font-family: 'coolvetica' !important;
-    color: #26387A;
+    color: #511446;
 }
 
 .banner-grade h5 {
@@ -73,7 +76,7 @@ body {
 }
 
 #speaker {
-    padding: 50px 0px 100px 0;
+    padding: 50px 13%;
 }
 
 .btn-speaker {
@@ -85,14 +88,14 @@ body {
     padding: 5px 25px 10px 25px !important;
     border-radius: 30px !important;
     border: 3px solid rgb(201, 201, 201) !important;
-    width: 100%;
+    width: 80%;
     line-height: 1em !important;
     font-family: 'coolvetica' !important;
 }
 
 .info-title {
     position: relative;
-    background: #1B224D;
+    background: #DC8B3D;
     color: #fff;
     font-weight: normal;
     font-size: 1.2em;
@@ -101,6 +104,7 @@ body {
     z-index: 9999;
     border-radius: 10px;
     font-family: 'coolvetica' !important;
+    box-shadow: 2px 2px #1b224d48;
 }
 
 .info .card {
@@ -113,7 +117,7 @@ body {
 }
 
 #content {
-    padding: 50px 0;
+    padding: 50px 13%;
 }
 
 .content-title {
@@ -131,37 +135,28 @@ body {
 }
 
 .content-career {
+    font-family: 'coolvetica' !important;
+    margin: 30px 0 20px 0;
     font-size: 1.8em;
 }
 
 #schedule {
-    padding: 100px 0px;
+    padding: 50px 13%;
 }
 
 .card-schedule {
-    background: rgba(255, 255, 255, 0.11);
-    border-radius: 5px;
+    /* background: rgba(255, 255, 255, 0.11); */
+    /* border-radius: 5px; */
 }
 
-.week {
-    font-family: 'coolvetica' !important;
-    font-size: 3em;
+.card-content {
+    position: relative;
+    margin-top: -13% !important;
 }
 
-.time {
-    font-size: 1.5em;
-    font-family: 'coolvetica' !important;
-}
-
-.date {
-    background: #fff;
-    border: 3px solid #DC8B3D;
-    border-radius: 20px;
-    padding: 5px 35px;
-    font-size: 1.5em;
-    font-weight: normal;
-    display: inline;
-    font-family: 'coolvetica' !important;
+.duration {
+    padding-top: 15%;
+    padding-right: 5% !important;
 }
 
 .learn-list {
@@ -208,7 +203,7 @@ body {
 }
 
 #faq {
-    padding: 0 0 100px 0;
+    padding: 50px 13%;
 }
 
 .faq-title {
@@ -224,7 +219,8 @@ body {
 .accordion-button {
     box-shadow: none !important;
     outline: none !important;
-    border-bottom: 2px solid #DC8B3D !important;
+    border-top: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
     font-size: .6em !important;
 }
 
@@ -233,7 +229,7 @@ body {
 }
 
 .accordion-button {
-    background: #26387A !important;
+    background: #DC8B3D !important;
     color: #fff !important;
 }
 
@@ -247,8 +243,12 @@ body {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
+#register {
+    padding: 100px 13%;
+}
+
 #testimonial {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .test-icon {
@@ -262,39 +262,55 @@ body {
 }
 
 .test-card {
-    background: #DC8B3D !important;
     color: #fff;
     border: 0 !important;
-    border-bottom: 4px solid #1B224D !important;
+    background: #26387A !important;
+    border-bottom: 4px solid #fff !important;
     padding-top: 20px !important;
     text-align: center;
     transition: all .3s;
     cursor: pointer;
+    height: 200px !important;
 }
 
 .test-user {
     font-family: 'coolvetica' !important;
-    font-weight: 100s !important;
+    font-weight: 100 !important;
     letter-spacing: 1px;
-    color: #1B224D;
+    color: #E78724;
 }
 
 .test-card:hover {
-    background: #26387A !important;
-    border-bottom: 4px solid #fff !important;
+    border-bottom: 4px solid #1B224D !important;
+    background: #E78724 !important;
 }
 
 .test-card:hover .test-user {
-    color: #DC8B3D;
+    color: #1B224D;
+}
+
+.test-card .card-body {
+    padding: 0 !important;
+}
+
+.dashed {
+    border: 1px dashed #fff;
+    border-radius: 10px;
+    margin: 0 10px !important;
+    margin-top: -7px !important;
+    height: 98% !important;
+    display: flex;
+    align-items: center;
 }
 
 #about {
-    padding: 50px 0;
     text-align: center;
+    padding: 50px;
 }
 
 #about h5 {
     font-size: 1.6em;
+    color: #fff;
 }
 
 .about-desc {
@@ -303,6 +319,7 @@ body {
     justify-content: center;
     font-size: 1.3em;
     line-height: 1em;
+    color: #fff;
 }
 
 .about-icon {

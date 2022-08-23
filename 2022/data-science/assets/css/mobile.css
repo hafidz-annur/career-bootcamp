@@ -5,10 +5,11 @@
     }
 
     .wrapper {
-        padding: 0 3%;
+        padding: 0;
     }
 
     #banner {
+        padding: 50px 5%;
         height: auto;
     }
 
@@ -33,7 +34,7 @@
 
     #speaker {
         height: auto;
-        padding: 0px;
+        padding: 50px 5%;
     }
 
     .btn-speaker {
@@ -50,7 +51,7 @@
     }
 
     #content {
-        padding: 50px 0;
+        padding: 50px 5%;
     }
 
     .content-title {
@@ -68,7 +69,7 @@
     }
 
     #schedule {
-        padding: 100px 0px;
+        padding: 50px 0;
     }
 
     .week {
@@ -84,6 +85,10 @@
         font-size: 1em;
     }
 
+    #faq {
+        padding: 50px 5%;
+    }
+
     .faq-title {
         font-size: 2em;
     }
@@ -96,8 +101,12 @@
         font-size: 1em;
     }
 
+    #register {
+        padding: 50px 5%;
+    }
+
     #about {
-        padding: 50px 0;
+        padding: 50px 5%;
     }
 
     #about h5 {

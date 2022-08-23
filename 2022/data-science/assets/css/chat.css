@@ -43,7 +43,7 @@ body {
     background-color: #dc8b3d;
     color: #fff;
     font-size: 22px;
-    border: none
+    border: 2px solid #26387A !important
 }
 
 .wrapper-chat {
