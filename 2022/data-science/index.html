@@ -15,6 +15,7 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css"
         integrity="sha256-sB1O2oXn5yaSW1T/92q2mGU86IDhZ0j1Ya8eSv+6QfM=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -43,6 +44,7 @@
         integrity="sha256-b/fLMBwSqO9vy/phDPv6OufPpR+VfUL+OsTEkJMPg+Q=" crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/27e56cd4ff.js" crossorigin="anonymous"></script>
+
 
     <!-- MailerLite  -->
     <script>
@@ -101,17 +103,25 @@
         </div>
     </div>
 
-    <section id="banner" class="position-relative overflow-hidden">
-        <img src="assets/img/Aset-01.webp" style="width: 25%; top:-15%; left: -5%;" class="position-absolute">
-        <img src="assets/img/Aset-02.webp" style="width: 25%; top:-15%; right: -5%;" class="position-absolute">
-        <img src="assets/img/Aset-14.webp" style="width: 10%; top:20%; right: 20%;" class="position-absolute">
-        <img src="assets/img/Aset-04.webp" style="width: 5%; bottom:20%; left: 20%;" class="position-absolute">
+    <section id="banner" class="position-relative overflow-hidden ">
+        <img src="assets/img/Aset-01.webp"
+            style="width: 25%; top:-15%; left: -5%; animation: up-bottom 3s ease-in-out alternate infinite;"
+            class="position-absolute">
+        <img src="assets/img/Aset-02.webp"
+            style="width: 25%; top:-15%; right: -5%; animation: up-bottom 4s ease-in-out alternate infinite;"
+            class="position-absolute">
+        <img src="assets/img/Aset-14.webp"
+            style="width: 10%; top:20%; right: 20%; animation: slide 3s ease-in-out alternate infinite;"
+            class="position-absolute">
+        <img src="assets/img/Aset-04.webp"
+            style="width: 5%; bottom:20%; left: 20%; animation: slide 3s ease-in-out alternate infinite;"
+            class="position-absolute">
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-12">
                     <div class="position-relative">
                         <div class="banner-logo">
-                            <img src="assets/img/logo.png" alt="Career Bootcamp" class="w-100">
+                            <img src="assets/img/logo-white.webp" alt="Career Bootcamp" class="w-100">
                         </div>
                         <h1 class="banner-title mt-4">
                             Data Science <br>
@@ -138,10 +148,12 @@
                 <div class="col-md-10">
                     <div class="d-flex align-items-center">
                         <div class="w-25 p-md-5 p-2">
-                            <img src="assets/img/Online.webp" alt="career bootcamp" class="w-100">
+                            <img src="assets/img/Online.webp" alt="career bootcamp" class="w-100"
+                                style="animation: slide 5s ease-in-out alternate infinite;">
                         </div>
                         <div class="w-75">
-                            <img src="assets/img/Bundle deals.webp" alt="career bootcamp" class="w-100">
+                            <img src="assets/img/Bundle deals.webp" alt="career bootcamp" class="w-100"
+                                style="animation: slide 7s ease-in-out alternate infinite;">
                         </div>
                     </div>
                 </div>
@@ -151,8 +163,12 @@
 
     <div class="wrapper position-relative overflow-hidden">
         <section id="speaker">
-            <img src="assets/img/Aset-14.webp" style="width: 15%; top:-17%; left: -3%;" class="position-absolute">
-            <img src="assets/img/Aset-04.webp" style="width: 15%; top:5%; right: 5%;" class="position-absolute">
+            <img src="assets/img/Aset-14.webp"
+                style="width: 15%; top:0%; left: -3%; animation: up-bottom 3s ease-in-out alternate infinite;"
+                class="position-absolute">
+            <img src="assets/img/Aset-04.webp"
+                style="width: 15%; top:5%; right: 5%; animation: slide 3s ease-in-out alternate infinite;"
+                class="position-absolute">
             <div class="row align-items-end g-md-5">
                 <div class="col-md-7 mt-md-0 mt-3 order-md-0 order-1">
                     <button class="btn btn-speaker w-100" style="text-transform: uppercase; letter-spacing: 2px;">
@@ -170,7 +186,7 @@
                                 <div class="card-body">
                                     <ul class="py-0 my-0 learn-list">
                                         <li>
-                                            Hands-on experience on various aspect of Data Science
+                                            Hands-on experience on various aspects of Data Science
                                         </li>
                                         <li>
                                             Coached and mentored by expert instructors
@@ -179,10 +195,10 @@
                                             Valuable insights from startup and tech professionals
                                         </li>
                                         <li>
-                                            Exclusive 5:1 of student-to-mentor group
+                                            Exclusive 5:1 of student-to-mentor ratio
                                         </li>
                                         <li>
-                                            10+ hours of real-world application</li>
+                                            10+ hours of interactive learning in between weeks</li>
                                         <li>
                                             Certificate and recommendation letter to boost your CV
                                         </li>
@@ -193,8 +209,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-5 order-md-1 order-0">
-                    <img src="https://picsum.photos/id/32/500/500" alt="career bootcamp" class="w-100">
+                <div class="col-md-5 order-md-1 order-0 px-md-5 p-2">
+                    <img src="assets/img/speaker.webp" alt="career bootcamp" class="w-100">
                 </div>
             </div>
         </section>
@@ -205,7 +221,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-5">
-                        <img src="assets/img/laptop.webp" alt="career bootcamp" class="w-100">
+                        <img src="assets/img/laptop.webp" alt="career bootcamp" class="w-100"
+                            style="animation: up-bottom 3s ease-in-out alternate infinite;">
                     </div>
 
                     <div class="col-md-7 mt-md-0 mt-4 ps-md-5 ps-0">
@@ -230,9 +247,12 @@
         </section>
 
         <section id="schedule" class="position-relative">
-            <img src="assets/img/Aset-09.webp" style="width: 13%; top:0; right: -2%; margin-top: -150px;"
+            <img src="assets/img/Aset-09.webp"
+                style="width: 13%; top:0; right: -2%; margin-top: -150px; animation: up-bottom 3s ease-in-out alternate infinite;"
                 class="position-absolute">
-            <img src="assets/img/Aset-14.webp" style="width: 10%; top:10%; left:5%; " class="position-absolute">
+            <img src="assets/img/Aset-14.webp"
+                style="width: 10%; top:10%; left:5%;  animation: up-bottom 3s ease-in-out alternate infinite;"
+                class="position-absolute">
             <div class="container">
                 <section class="splide pb-5" id="slideSchedule">
                     <div class="splide__track">
@@ -388,10 +408,10 @@
         </section>
 
         <section id="faq" class="position-relative">
-            <img src="assets/img/Aset-14.webp" style="width: 5%; top:10%; right:5%; transform: rotate(-180deg); "
+            <img src="assets/img/Aset-14.webp" style="width: 8%; top:10%; right:5%; transform: rotate(-180deg);"
                 class="position-absolute">
             <div class="container">
-                <h3 class="faq-title text-center mb-4">FAQ</h3>
+                <h3 class="faq-title text-start mb-4">FAQ</h3>
                 <div class="row g-md-5 align-items-center">
                     <div class="col-md-7 order-md-0 order-1">
                         <div class="accordion" id="accordionExample">
@@ -486,14 +506,16 @@
                         </div>
                     </div>
                     <div class="col-md-5 order-md-1 order-0 mb-2">
-                        <img src="assets/img/FAQ.webp" alt="Data Science" class="w-100">
+                        <img src="assets/img/FAQ.webp" alt="Data Science" class="w-100"
+                            style="animation: up-bottom 3s ease-in-out alternate infinite;">
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="register" class="position-relative">
-            <img src="assets/img/Aset-01.webp" style="width: 15%; top:10%; left:-5%; transform: rotate(90deg); "
+            <img src="assets/img/Aset-01.webp"
+                style="width: 15%; top:10%; left:-5%; transform: rotate(90deg);  animation: up-bottom 3s ease-in-out alternate infinite;"
                 class="position-absolute">
             <div class="container">
                 <div class="row align-items-center">
@@ -502,7 +524,8 @@
                             Get The Exclusive <br> Hands-On Experience Now!
                         </button>
 
-                        <img src="assets/img/Aset-16.webp" alt="Data Science" class="w-100">
+                        <img src="assets/img/Aset-16.webp" alt="Data Science" class="w-100"
+                            style="animation: slide 3s ease-in-out alternate infinite;">
                     </div>
                     <div class="col-md-6">
                         <div id="mlb2-5753665"
@@ -609,12 +632,11 @@
 
                                                     <div class="col-md-7">
                                                         <div class="ml-form-fieldRow">
-                                                            <div
-                                                                class="ml-field-group ml-field-medpar_kol ml-validate-required">
+                                                            <div class="ml-field-group ml-field-medpar_kol">
                                                                 <label>If you choose "Other Social Media", from which
                                                                     account?</label>
                                                                 <select class="custom-select" name="fields[medpar_kol]"
-                                                                    aria-label="medpar_kol" aria-required="true">
+                                                                    aria-label="medpar_kol">
                                                                     <option value="">-</option>
                                                                     <option> IG @goresdenai </option>
                                                                     <option> IG/Discord @abroadening </option>
@@ -688,9 +710,12 @@
         </section>
 
         <section id="testimonial" class="position-relative">
-            <img src="assets/img/Aset-02.webp" style="width: 15%; top:10%; right:-5%; transform: rotate(90deg); "
+            <img src="assets/img/Aset-02.webp"
+                style="width: 15%; top:10%; right:-5%; transform: rotate(90deg); animation: up-bottom 3s ease-in-out alternate infinite;"
                 class="position-absolute">
-            <img src="assets/img/Aset-04.webp" style="width: 10%; bottom:-10%; left:5%;" class="position-absolute">
+            <img src="assets/img/Aset-04.webp"
+                style="width: 10%; bottom:-10%; left:5%; animation: slide 3s ease-in-out alternate infinite;"
+                class="position-absolute">
             <div class="container">
                 <h3 class="faq-title text-center">Testimonials</h3>
 
@@ -772,7 +797,9 @@
         </section>
 
         <section id="about" class="position-relative">
-            <img src="assets/img/Aset-01.webp" style="width: 15%; bottom:-2%; right:-5%; " class="position-absolute">
+            <img src="assets/img/Aset-01.webp"
+                style="width: 15%; bottom:-2%; right:-5%; animation: up-bottom 3s ease-in-out alternate infinite;"
+                class="position-absolute">
             <img src="assets/img/Aset-14.webp" style="width: 10%; top:45%; left:15%; z-index: 0; "
                 class="position-absolute">
             <div class="container position-relative" style="z-index: 1;">
@@ -849,8 +876,6 @@
 
 
     <section id="footer" class="position-relative">
-        <img src="assets/img/Aset-01.webp"
-            style="width: 10%; bottom:-2%; left:-3%; z-index: 0; transform: rotate(-90deg);" class="position-absolute">
         <div class="container-fluid p-0">
             <div class="container p-md-0 p-3">
                 <div class="row">
