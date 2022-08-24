@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css"
         integrity="sha256-sB1O2oXn5yaSW1T/92q2mGU86IDhZ0j1Ya8eSv+6QfM=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -45,6 +46,7 @@
 
     <script src="https://kit.fontawesome.com/27e56cd4ff.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
     <!-- MailerLite  -->
@@ -184,7 +186,7 @@
             <img src="assets/img/Aset-04.webp"
                 style="width: 15%; top:5%; right: 5%; animation: slide 3s ease-in-out alternate infinite;"
                 class="position-absolute">
-            <div class="row align-items-end g-md-5">
+            <div class="row align-items-end g-md-5" data-aos="fade-up">
                 <div class="col-md-7 mt-md-0 mt-3 order-md-0 order-1">
                     <button class="btn btn-speaker w-100 d-md-block d-none"
                         style="text-transform: uppercase; letter-spacing: 2px;">
@@ -205,16 +207,16 @@
                                             Hands-on experience on various aspects of Data Science
                                         </li>
                                         <li>
-                                            Coached and mentored by expert instructors
+                                            Coached by expert instructors
                                         </li>
                                         <li>
-                                            Valuable insights from startup and tech professionals
+                                            Valuable insights from tech startup professionals
                                         </li>
                                         <li>
-                                            Exclusive 5:1 of student-to-mentor ratio
+                                            Exclusive 5:1 student-to-mentor ratio
                                         </li>
                                         <li>
-                                            10+ hours of interactive learning in between weeks</li>
+                                            10+ hours of on-demand mentoring hours</li>
                                         <li>
                                             Certificate and recommendation letter to boost your CV
                                         </li>
@@ -234,7 +236,7 @@
         <section id="content" class="position-relative">
             <img src="assets/img/Aset-02.webp" style="width: 15%; top:0; left: -5%; transform: rotate(90deg);"
                 class="position-absolute">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <div class="row align-items-center">
                     <div class="col-md-5">
                         <img src="assets/img/3D Phyton 1.webp" alt="career bootcamp" class="w-100"
@@ -269,7 +271,7 @@
             <img src="assets/img/Aset-14.webp"
                 style="width: 10%; top:40%; left:5%;  animation: up-bottom 3s ease-in-out alternate infinite;"
                 class="position-absolute">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <h3 class="faq-title text-center">Program Overview</h3>
                 <div class="row justify-content-center">
                     <div class="col-md-9">
@@ -282,7 +284,7 @@
         <section id="faq" class="position-relative">
             <img src="assets/img/Aset-14.webp" style="width: 8%; top:10%; right:5%; transform: rotate(-180deg);"
                 class="position-absolute">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <h3 class="faq-title text-md-start text-center mb-4">FAQ</h3>
                 <div class="row g-md-5 align-items-center">
                     <div class="col-md-7 order-md-0 order-1">
@@ -389,7 +391,7 @@
             <img src="assets/img/Aset-01.webp"
                 style="width: 15%; top:10%; left:-5%; transform: rotate(90deg);  animation: up-bottom 3s ease-in-out alternate infinite;"
                 class="position-absolute">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <div class="row align-items-center">
                     <div class="col-md-6 mb-md-0 mb-3 px-md-5 px-0">
                         <button class="btn btn-speaker w-100" style="text-transform: uppercase; letter-spacing: 2px;">
@@ -588,7 +590,7 @@
             <img src="assets/img/Aset-04.webp"
                 style="width: 10%; bottom:-10%; left:5%; animation: slide 3s ease-in-out alternate infinite;"
                 class="position-absolute">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <h3 class="faq-title text-center">Testimonials</h3>
 
                 <section class="splide pb-4" id="slideTestimonial">
@@ -674,7 +676,7 @@
                 class="position-absolute">
             <img src="assets/img/Aset-14.webp" style="width: 10%; top:45%; left:15%; z-index: 0; "
                 class="position-absolute">
-            <div class="container position-relative" style="z-index: 1;">
+            <div class="container position-relative" style="z-index: 1;" data-aos="fade-up">
                 <h3 class="faq-title text-center">About Us</h3>
                 <div class="row justify-content-center">
                     <div class="col-md-10">
@@ -795,6 +797,10 @@
         }
 
         setTimeout(preloader, 2000);
+    </script>
+
+    <script>
+        AOS.init();
     </script>
 
     <!-- Typed Js  -->
