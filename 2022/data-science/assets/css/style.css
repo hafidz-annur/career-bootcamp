@@ -71,16 +71,17 @@ body {
     top: 0;
     right: 0;
     font-family: 'coolvetica' !important;
-    color: #511446;
+    color: #EB9E48;
+    text-shadow: 1px 0 #fff, 1px 1px #fff;
 }
 
 .banner-grade h5 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: normal !important;
 }
 
 .banner-grade h4 {
-    font-size: 2em;
+    font-size: 2.4em;
     line-height: 1em;
     font-weight: normal !important;
 }
