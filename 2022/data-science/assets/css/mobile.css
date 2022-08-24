@@ -9,7 +9,7 @@
     }
 
     #banner {
-        padding: 50px 5%;
+        padding: 50px 3%;
         height: auto;
     }
 
@@ -86,7 +86,7 @@
     }
 
     #faq {
-        padding: 50px 5%;
+        padding: 50px 0%;
     }
 
     .faq-title {
@@ -102,7 +102,15 @@
     }
 
     #register {
-        padding: 50px 5%;
+        padding: 50px 2%;
+    }
+
+    .test-desc {
+        font-size: 1.1em;
+    }
+
+    .test-user {
+        font-size: 1em;
     }
 
     #about {

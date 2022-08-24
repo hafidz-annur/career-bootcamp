@@ -19,7 +19,7 @@ body {
 
 .join-now {
     position: fixed;
-    bottom: 30px;
+    bottom: 35px;
     right: 70px;
     padding: 10px 40px;
     border-radius: 40px;
@@ -41,27 +41,27 @@ body {
 }
 
 #banner {
-    height: 100vh;
+    height: auto;
     padding: 50px 13%;
 }
 
 .banner-logo {
     margin-left: -10px;
-    width: 150px;
+    width: 100px;
 }
 
 .banner-title {
-    font-size: 8em;
+    font-size: 7.3em;
     font-family: 'coolvetica' !important;
     line-height: .9em;
-    text-shadow: 2px 0 #DC8B3D, 2px 2px #DC8B3D;
+    text-shadow: 2px 0 #fff, 2px 2px #fff;
     color: #26387A;
     margin-left: -10px;
 }
 
 .banner-desc {
     color: #26387A;
-    font-size: 2em;
+    font-size: 2.2em;
     letter-spacing: 0px;
     margin-left: -10px;
 }
@@ -105,10 +105,10 @@ body {
 
 .info-title {
     position: relative;
-    background: #DC8B3D;
+    background: #EB9E48;
     color: #fff;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding: 5px 20px 10px 20px;
     display: inline;
     z-index: 9999;
@@ -122,7 +122,7 @@ body {
     padding-top: 10px;
     background: #26387A;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.3em;
     border-radius: 20px;
 }
 
@@ -131,15 +131,15 @@ body {
 }
 
 .content-title {
-    font-size: 6em;
-    margin-left: -10px;
+    font-size: 3.5em;
+    /* margin-left: -10px; */
     color: #27377C;
     font-family: 'coolvetica' !important;
 }
 
 .content-desc {
     color: #27377C;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 400;
     text-align: justify;
 }
@@ -239,7 +239,7 @@ body {
 }
 
 .accordion-button {
-    background: #DC8B3D !important;
+    background: #EB9E48 !important;
     color: #fff !important;
 }
 

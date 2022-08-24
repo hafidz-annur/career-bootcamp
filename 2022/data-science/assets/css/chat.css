@@ -5,7 +5,7 @@ body {
 .chat-btn {
     position: fixed;
     right: 14px;
-    bottom: 30px;
+    bottom: 35px;
     cursor: pointer;
     z-index: 9999;
 }
@@ -34,13 +34,13 @@ body {
 }
 
 .chat-btn {
-    width: 50px;
-    height: 50px;
+    width: 46px;
+    height: 46px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    background-color: #dc8b3d;
+    background-color: #EB9E48;
     color: #fff;
     font-size: 22px;
     border: 2px solid #26387A !important
@@ -48,18 +48,19 @@ body {
 
 .wrapper-chat {
     position: fixed;
-    right: 20px;
-    bottom: 100px;
+    right: 15px;
+    bottom: 85px;
     width: 200px;
     background-color: #fff;
     border-radius: 5px;
-    z-index: 9999;
+    z-index: -1;
     opacity: 0;
     transition: all 0.4s
 }
 
 #check:checked~.wrapper-chat {
-    opacity: 1
+    opacity: 1;
+    z-index: 9999;
 }
 
 .header {
