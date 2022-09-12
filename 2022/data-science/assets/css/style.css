@@ -280,7 +280,7 @@ body {
     padding-top: 20px !important;
     text-align: center;
     transition: all .3s;
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 230px !important;
 }
 
