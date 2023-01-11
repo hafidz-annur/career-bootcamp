@@ -10,12 +10,17 @@ body {
 
 .navbar {
   font-family: "coolvetica" !important;
-  color: #1b2875;
   font-weight: 600;
   letter-spacing: 1px;
 }
 .navbar ul {
   padding-left: 10px;
+}
+.navbar ul a.active {
+  color: #27387A !important;
+}
+.navbar .navbar-brand {
+  margin-left: -10px !important;
 }
 
 .navbar-allin {
@@ -34,16 +39,23 @@ body {
 
 .btn-join-now {
   border-radius: 20px;
+  color: #27387A !important;
+  padding: 0;
+  width: 9%;
+  background-color: #F4E556 !important;
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
 }
 
 .banner {
   height: auto;
   padding: 100px 13%;
+  padding-bottom: 0;
   margin-top: -0.2%;
 }
 
 .banner-logo {
-  margin-left: -10px;
   width: 125px;
 }
 
@@ -66,15 +78,15 @@ body {
   top: 40%;
   right: 0;
   font-family: "coolvetica" !important;
-  color: #1b2875;
+  color: #27387A;
   text-align: right;
 }
 
 .option-bootcamp .researcher {
-  margin-left: -15%;
+  margin-left: 10%;
 }
 .option-bootcamp .financial {
-  margin-left: 15%;
+  margin-left: -10%;
 }
 
 .booking {
@@ -95,7 +107,6 @@ body {
 
 .what-will-you-get {
   margin-top: 3em;
-  margin-bottom: -6%;
 }
 .what-will-you-get img {
   width: 90%;
@@ -114,14 +125,14 @@ body {
 .content p {
   font-family: "coolvetica" !important;
   font-size: 20px;
-  color: #1b2875;
+  color: #27387A;
   text-align: justify;
 }
 .content .career-prospect {
   margin-top: 7%;
 }
 .content .career-prospect .prospect img {
-  width: 60%;
+  width: 45%;
 }
 
 .timeline {
@@ -131,17 +142,22 @@ body {
   width: 85%;
 }
 
+.faq {
+  margin-top: 8% !important;
+}
 .faq h1 {
-  color: #1b2875;
+  color: #27387A;
   font-family: "coolvetica" !important;
   font-size: 3.4em;
 }
 .faq .accordion {
   margin-top: 2%;
+  --bs-accordion-bg: transparent;
 }
 .faq .accordion .accordion-item {
   border: none !important;
   margin-bottom: 10px;
+  border-radius: 15px;
 }
 .faq .accordion .accordion-item:first-of-type .accordion-button {
   border-radius: 15px;
@@ -159,7 +175,7 @@ body {
   font-weight: 500;
   font-family: "coolvetica" !important;
   background: #7dd0fc !important;
-  color: #1b2875 !important;
+  color: #27387A !important;
 }
 .faq .accordion-button::after() {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
@@ -168,7 +184,7 @@ body {
   font-size: 1.1em;
   font-weight: 600;
   border-radius: 15px;
-  color: #1b2875;
+  color: #27387A;
   background-color: #e6f4ff;
 }
 .faq .accordion-body ul {
@@ -192,8 +208,8 @@ body {
 }
 .form .card-form {
   border-radius: 15px !important;
-  color: #1b2875;
-  background-color: #a2d6f1 !important;
+  color: #27387A;
+  background-color: #D1EAFF !important;
   border: 0;
   padding: 5px;
 }
@@ -206,7 +222,7 @@ body {
   padding: 2px 2px;
 }
 .form .card-form .option {
-  background: rgb(209, 225, 33);
+  background: #F4E556;
   height: 100%;
   width: 100%;
   display: flex;
@@ -228,39 +244,41 @@ body {
   padding: 10px;
   font-family: "coolvetica" !important;
   letter-spacing: 1.2px;
-  color: #1b2875 !important;
+  color: #27387A !important;
 }
 .form .card-form input[type=checkbox]:checked:checked + label {
   background-color: #27387A !important;
   color: #fff !important;
 }
 .form .card-form input[type=checkbox]:checked:disabled + label {
-  background-color: rgb(209, 225, 33);
+  background-color: #F4E556;
 }
 .form .card-form .btn-submit {
-  background-color: rgb(255, 209, 5) !important;
+  background-color: #FCCA47 !important;
   border: 0;
   height: 40px;
   border-radius: 15px !important;
-  color: #1b2875 !important;
+  color: #27387A !important;
 }
 .form img {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 250px;
 }
 
 .testimonial {
   margin-top: 5%;
+  padding-left: -5% !important;
+  padding-right: -5% !important;
 }
 .testimonial h1 {
   font-family: "coolvetica" !important;
-  color: #1b2875;
+  color: #27387A;
   font-size: 4.3em;
   letter-spacing: 4px;
 }
 .testimonial .card-testimonial {
   margin-top: 5%;
-  background-color: #1b2875;
+  background-color: #27387A;
   color: #fff;
   border-radius: 15px;
   min-height: 250px;
@@ -285,12 +303,12 @@ body {
 }
 .about-us h1 {
   font-family: "coolvetica" !important;
-  color: #1b2875;
+  color: #27387A;
   font-size: 4.3em;
   letter-spacing: 4px;
 }
 .about-us p {
-  color: #1b2875;
+  color: #27387A;
   font-size: 26px;
 }
 .about-us .icon {
@@ -298,10 +316,12 @@ body {
 }
 .about-us .btn-register {
   margin-top: 4%;
-  height: 60px;
+  height: 65px;
+  font-weight: 700;
   width: 40%;
   color: #fff;
-  font-size: 2em;
+  border-radius: 15px;
+  font-size: 2.2em;
 }
 
 #footer {
@@ -315,6 +335,153 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width: 1000px) {
+  .banner {
+    padding-top: 10% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .booking .group-booking {
+    margin-left: -1%;
+  }
+  .booking .group-booking img {
+    width: 85%;
+  }
+  .booking .price {
+    margin-left: 1%;
+  }
+  .booking .price img {
+    width: 85%;
+  }
+  .what-will-you-get img {
+    width: 100%;
+  }
+  .timeline img {
+    width: 90%;
+  }
+  .wrapper {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .form img {
+    width: 300px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .faq-monitor {
+    width: 70% !important;
+  }
+  .faq .accordion-button {
+    font-weight: 400;
+    font-size: 16px !important;
+  }
+  .faq .accordion-body {
+    font-size: 16px !important;
+  }
+  .btn-join-now {
+    height: 30px !important;
+    width: 100%;
+    display: block;
+  }
+  .navbar .navbar-brand {
+    margin-left: 10px !important;
+  }
+  .ml-last-item {
+    padding-top: 20%;
+  }
+  #opt-env {
+    margin-top: 30px;
+  }
+  .banner-grade {
+    top: 30%;
+  }
+  .banner-desc {
+    font-size: 20px;
+  }
+  .content .content-img {
+    width: 60% !important;
+  }
+  .timeline {
+    margin-bottom: 4%;
+  }
+  .timeline img {
+    width: 100%;
+  }
+  .form img {
+    width: 250px !important;
+  }
+  .testimonial h1 {
+    font-size: 3em;
+  }
+  .testimonial .card-testimonial .quote {
+    margin-top: 0 !important;
+  }
+  .testimonial .card-testimonial .testi {
+    margin-top: 0 !important;
+  }
+  .about-us p {
+    font-size: 1em;
+    line-height: 1em;
+  }
+  .about-us h1 {
+    font-size: 3em;
+  }
+  .about-us .btn-register {
+    margin-top: 4%;
+    height: 65px;
+    font-weight: 700;
+    width: 85%;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 2.2em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner {
+    margin-top: 5% !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  .banner-logo {
+    width: 100px !important;
+  }
+  .banner-grade {
+    top: 20%;
+  }
+  .timeline img {
+    width: 100%;
+  }
+  .price-booking {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner {
+    margin-top: 10% !important;
+  }
+  .banner-grade {
+    top: 10%;
+  }
+  .testimonial h1 {
+    font-size: 2em;
+  }
+  .about-us h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 388px) {
+  .form-pl {
+    padding-left: 0 !important;
+  }
+  #mlb2-2926634 .ml-form-embedContainer .ml-form-align-center {
+    text-align: unset !important;
+  }
+}
 @-webkit-keyframes slide {
   0% {
     transform: translateX(-5%);
@@ -323,7 +490,6 @@ body {
     transform: translateX(5%);
   }
 }
-
 @keyframes slide {
   0% {
     transform: translateX(-5%);

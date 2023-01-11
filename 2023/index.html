@@ -21,11 +21,17 @@
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/form.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"
+        integrity="sha256-b/fLMBwSqO9vy/phDPv6OufPpR+VfUL+OsTEkJMPg+Q=" crossorigin="anonymous"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
-      integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw="
-      crossorigin="anonymous"
-    ></script>
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+   
 
   </head>
   <body>
@@ -39,25 +45,30 @@
             alt="Logo ALL In"
             width="80"
             height="30"
-            style="margin-left: -10px !important"
           />
         </a>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              href="#financial-analyst"
-              >Financial Analyst</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#environmental-researcher"
-              >Environmental researcher</a
-            >
-          </li>
-        </ul>
-        <a href="#form" class="btn btn-warning btn-join-now"> Join Now </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="finance"
+                aria-current="page"
+                href="#financial-analyst"
+                >Financial Analyst</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="research" href="#environmental-researcher"
+                >Environmental researcher</a
+              >
+            </li>
+          </ul>
+          <a href="#form" class="btn btn-warning btn-join-now"> Join Now </a>
+        </div>
       </div>
     </nav>
 
@@ -120,20 +131,20 @@
 
           <div class="option-bootcamp">
             <div class="d-flex justify-content-end align-items-center">
-              <div class="researcher-bootcamp">
-                <img
-                  src="assets/img/researcher asset.webp"
-                  alt="career bootcamp"
-                  class="w-100 researcher"
-                  style="animation: slide 4s ease-in-out alternate infinite"
-                />
-              </div>
               <div class="financial-bootcamp">
                 <img
                   src="assets/img/financial analyst asset.webp"
                   alt="career bootcamp"
                   class="w-100 financial"
                   style="animation: slide 3s ease-in-out alternate infinite"
+                />
+              </div>
+              <div class="researcher-bootcamp">
+                <img
+                  src="assets/img/researcher asset.webp"
+                  alt="career bootcamp"
+                  class="w-100 researcher"
+                  style="animation: slide 4s ease-in-out alternate infinite"
                 />
               </div>
             </div>
@@ -171,15 +182,15 @@
     </section>
 
     <div class="wrapper position-relative overflow-hidden">
-      <div id="financial-analyst" style="padding-top: 80px">
+      <div id="financial-analyst" class="financial-analyst" style="padding-top: 80px;">
         <section class="content" data-aos="fade-up" data-aos-offset="20">
           <div class="container">
             <div class="row align-items-start">
-              <div class="col-md-5">
+              <div class="col-md-5 text-center">
                 <img
                   src="assets/img/aset calculator.webp"
                   alt="career bootcamp"
-                  class="w-100"
+                  class="w-100 content-img"
                   style="animation: up-bottom 3s ease-in-out alternate infinite"
                 />
               </div>
@@ -210,17 +221,23 @@
             </div>
 
             <div class="career-prospect">
-              <div class="d-flex justify-content-center align-items-center">
+              <div class="prospect text-center">
+                <img
+                  src="assets/img/icons career financial.webp"
+                  alt="career bootcamp"
+                />
+              </div>
+              <!-- <div class="d-flex justify-content-center align-items-center">
                 <div class="prospect">
                   <img
                     src="assets/img/icons career financial.webp"
                     alt="career bootcamp"
                   />
                 </div>
-                <!-- <div class="professionals">
+                <div class="professionals">
                             <img src="assets/img/price sticker.webp" alt="career bootcamp">
-                        </div> -->
-              </div>
+                        </div>
+              </div> -->
             </div>
             <img
               src="assets/img/asset 3d 3.webp"
@@ -257,11 +274,11 @@
       <section class="content" id="environmental-researcher" style="padding-top: 80px">
         <div class="container" data-aos="fade-up" data-aos-offset="20">
           <div class="row align-items-start">
-            <div class="col-md-5">
+            <div class="col-md-5 text-center">
               <img
                 src="assets/img/aset microscope.webp"
                 alt="career bootcamp"
-                class="w-100"
+                class="w-100 content-img"
                 style="animation: up-bottom 3s ease-in-out alternate infinite"
               />
             </div>
@@ -290,17 +307,23 @@
           </div>
 
           <div class="career-prospect">
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="prospect text-center">
+              <img
+                src="assets/img/icons career researcher.webp"
+                alt="career bootcamp"
+              />
+            </div>
+            <!-- <div class="d-flex justify-content-center align-items-center">
               <div class="prospect">
                 <img
                   src="assets/img/icons career researcher.webp"
                   alt="career bootcamp"
                 />
               </div>
-              <!-- <div class="professionals">
+              <div class="professionals">
                             <img src="assets/img/price sticker.webp" alt="career bootcamp">
-                        </div> -->
-            </div>
+                        </div>
+            </div> -->
           </div>
 
           <div class="timeline text-center" data-aos="fade-up">
@@ -365,6 +388,7 @@
               bottom: -8%;
               left: 50%;
               animation: slide 3s ease-in-out alternate infinite;
+              z-index: -999;
             "
             class="position-absolute"
           />
@@ -375,6 +399,7 @@
               bottom: -20%;
               left: -25%;
               animation: up-bottom 3s ease-in-out alternate infinite;
+              z-index: -999;
             "
             class="ring position-absolute"
           />
@@ -531,11 +556,11 @@
               </div>
             </div>
 
-            <div class="col-md-5 order-md-1 order-0 mb-2">
+            <div class="col-md-5 order-md-1 order-0 mb-2 text-center">
               <img
                 src="assets/img/aset monitor.webp"
                 alt="Data Science"
-                class="w-100"
+                class="w-100 faq-monitor"
                 style="animation: up-bottom 3s ease-in-out alternate infinite"
               />
             </div>
@@ -556,60 +581,14 @@
             "
             class="position-absolute"
           />
-          <div class="row g-md-5 align-items-center">
-            <div class="col-md-7 order-md-0 order-1">
-              <!-- <div class="card card-form">
-                            <div class="card-body">
-                              <form>
-                                <div class="mb-3">
-                                  <label for="name" class="form-label">Name</label>
-                                  <input type="text" class="form-control" id="name">
-                                </div>
-                                <div class="mb-3">
-                                  <label for="email" class="form-label">Email</label>
-                                  <input type="email" class="form-control" id="email">
-                                </div>
-                                <div class="mb-3">
-                                  <label for="phone" class="form-label">Phone Number</label>
-                                  <input type="number" class="form-control" id="phone">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="curriculum" class="form-label">Curriculum</label>
-                                        <div class="select-radio d-flex">
-                                            <input type="radio" checked name="curriculum" class="form-control" id="a-level">
-                                            <label for="a-level" class="option a-level">
-                                                <span>A Level</span>
-                                            </label>
-                                            <input type="radio" name="curriculum" class="form-control" id="ib">
-                                            <label for="ib" class="option ib">
-                                                <span>IB</span>
-                                            </label>
-                                        </div>
-                                </div>
-                                <div class="mb-4">
-                                    <label for="type_client" class="form-label">I am a..</label>
-                                        <div class="select-radio d-flex">
-                                            <input type="radio" name="type_client" class="form-control" id="student">
-                                            <label for="student" class="option student">
-                                                <span>Student</span>
-                                            </label>
-                                            <input type="radio" checked name="type_client" class="form-control" id="parent">
-                                            <label for="parent" class="option parent">
-                                                <span>Parent</span>
-                                            </label>
-                                        </div>
-                                </div>
-                                <div class="d-grid">
-                                    <button type="submit" class="btn btn-primary btn-submit">Submit</button>
-                                </div>
-                              </form>
-                            </div>
-                          </div> -->
+          <div class="row align-items-center">
+            <div class="col-sm-12 col-md-7 order-md-0 order-1 form-pl">
+             
               <div
                 id="mlb2-2926634"
                 class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-2926634"
               >
-                <div class="ml-form-align-center">
+                <!-- <div class="ml-form-align-center"> -->
                   <div class="ml-form-embedWrapper embedForm card-form">
                     <div
                       class="ml-form-embedBody ml-form-embedBodyHorizontal row-form"
@@ -642,27 +621,7 @@
                                 placeholder="Name"
                                 autocomplete="name"
                               />
-                              <!-- /input -->
-
-                              <!-- textarea -->
-
-                              <!-- /textarea -->
-
-                              <!-- select -->
-
-                              <!-- /select -->
-
-                              <!-- checkboxes -->
-
-                              <!-- /checkboxes -->
-
-                              <!-- radio -->
-
-                              <!-- /radio -->
-
-                              <!-- countries -->
-
-                              <!-- /countries -->
+                           
                             </div>
                           </div>
                           <div class="ml-form-fieldRow">
@@ -680,27 +639,6 @@
                                 placeholder="Email"
                                 autocomplete="email"
                               />
-                              <!-- /input -->
-
-                              <!-- textarea -->
-
-                              <!-- /textarea -->
-
-                              <!-- select -->
-
-                              <!-- /select -->
-
-                              <!-- checkboxes -->
-
-                              <!-- /checkboxes -->
-
-                              <!-- radio -->
-
-                              <!-- /radio -->
-
-                              <!-- countries -->
-
-                              <!-- /countries -->
                             </div>
                           </div>
                           <div class="ml-form-fieldRow">
@@ -718,27 +656,7 @@
                                 placeholder="Phone Number"
                                 autocomplete=""
                               />
-                              <!-- /input -->
-
-                              <!-- textarea -->
-
-                              <!-- /textarea -->
-
-                              <!-- select -->
-
-                              <!-- /select -->
-
-                              <!-- checkboxes -->
-
-                              <!-- /checkboxes -->
-
-                              <!-- radio -->
-
-                              <!-- /radio -->
-
-                              <!-- countries -->
-
-                              <!-- /countries -->
+                            
                             </div>
                           </div>
                           <div class="ml-form-fieldRow">
@@ -756,27 +674,7 @@
                                 placeholder="School"
                                 autocomplete=""
                               />
-                              <!-- /input -->
-
-                              <!-- textarea -->
-
-                              <!-- /textarea -->
-
-                              <!-- select -->
-
-                              <!-- /select -->
-
-                              <!-- checkboxes -->
-
-                              <!-- /checkboxes -->
-
-                              <!-- radio -->
-
-                              <!-- /radio -->
-
-                              <!-- countries -->
-
-                              <!-- /countries -->
+                              
                             </div>
                           </div>
                           <div class="ml-form-fieldRow">
@@ -785,15 +683,6 @@
                             >
                               <label>Grade</label>
 
-                              <!-- input -->
-
-                              <!-- /input -->
-
-                              <!-- textarea -->
-
-                              <!-- /textarea -->
-
-                              <!-- select -->
                               <select
                                 class="custom-select form-control"
                                 name="fields[grade_waktu_ikut_program]"
@@ -812,19 +701,7 @@
 
                                 <option>College/University Student</option>
                               </select>
-                              <!-- /select -->
-
-                              <!-- checkboxes -->
-
-                              <!-- /checkboxes -->
-
-                              <!-- radio -->
-
-                              <!-- /radio -->
-
-                              <!-- countries -->
-
-                              <!-- /countries -->
+                          
                             </div>
                           </div>
                           <div class="ml-form-fieldRow">
@@ -833,21 +710,9 @@
                             >
                               <label>Session</label>
 
-                              <!-- input -->
-
-                              <!-- /input -->
-
-                              <!-- textarea -->
-
-                              <!-- /textarea -->
-
-                              <!-- select -->
-
-                              <!-- /select -->
-
-                              <!-- checkboxes -->
-                              <div class="custom-checkbox-radio-list select-checkbox d-flex">
-                                <!-- Visible if current or any next has value -->
+                             
+                              <!-- Visible if current or any next has value -->
+                              <div class="custom-checkbox-radio-list select-checkbox d-flex flex-md-row flex-column">
                                 <div class="custom-control custom-checkbox">
                                   <input
                                     name="fields[session][]"
@@ -861,6 +726,7 @@
                                   />
                                   <label
                                     class="custom-control-label option"
+                                    id="opt-fin"
                                     for="checkbox-2926634-53-0"
                                     style="margin-left: 50px !important;"
                                   >
@@ -880,6 +746,7 @@
                                   />
                                   <label
                                     class="custom-control-label option"
+                                    id="opt-env"
                                     for="checkbox-2926634-53-1"
                                     style="margin-left: -20px !important;"
                                   >
@@ -887,15 +754,7 @@
                                   </label>
                                 </div>
                               </div>
-                              <!-- /checkboxes -->
-
-                              <!-- radio -->
-
-                              <!-- /radio -->
-
-                              <!-- countries -->
-
-                              <!-- /countries -->
+                
                             </div>
                           </div>
                           <div class="ml-form-fieldRow ml-last-item">
@@ -904,15 +763,7 @@
                             >
                               <label>I know this event from...</label>
 
-                              <!-- input -->
-
-                              <!-- /input -->
-
-                              <!-- textarea -->
-
-                              <!-- /textarea -->
-
-                              <!-- select -->
+                        
                               <select
                                 class="custom-select form-control"
                                 name="fields[promotion_source]"
@@ -941,19 +792,7 @@
 
                                 <option>School</option>
                               </select>
-                              <!-- /select -->
-
-                              <!-- checkboxes -->
-
-                              <!-- /checkboxes -->
-
-                              <!-- radio -->
-
-                              <!-- /radio -->
-
-                              <!-- countries -->
-
-                              <!-- /countries -->
+                         
                             </div>
                           </div>
                         </div>
@@ -998,38 +837,115 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                <!-- </div> -->
               </div>
             </div>
-            <div class="col-md-5 order-md-1 order-0 mb-2">
-              <div class="col-md-5 order-md-1 order-0 mb-2">
+            <!-- <div class="col-md-6 order-md-1 order-0 mb-2"> -->
+              <div class="col-md-5 order-md-1 order-0 mb-2 text-center">
                 <img
                   src="assets/img/harga _ group booking early bird asset.webp"
                   alt="Price booking"
                   style="animation: up-bottom 3s ease-in-out alternate infinite"
+                  class="price-booking"
                 />
               </div>
-            </div>
+            <!-- </div> -->
           </div>
         </div>
       </section>
 
       <section class="testimonial position-relative" id="testimonial">
         <div class="container" data-aos="fade-up" data-aos-offset="50">
+          <img
+            src="assets/img/asset 3d 7.webp"
+            style="
+              width: 40%;
+              top: 60%;
+              left: -25%;
+              animation: slide 3s ease-in-out alternate infinite;
+            "
+            class="position-absolute"
+          />
           <h1 class="text-center"><b>Testimonials</b></h1>
-          <div class="row align-items-center">
+
+          <div class="splide" role="group" id="slideTestimonial" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list d-flex align-items-stretch">
+                <li class="splide__slide">
+                  <div class="card shadow card-testimonial">
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h1 class="quote">&ldquo;</h1>
+                      </div>
+                      
+                      <p class="testi">
+                        I had a great time attending this event, it was really
+                        enjoyable to learn from speakers, and I believe what I've
+                        learned will be very useful to me.
+                      </p>
+                        <p class="text-end by">Odelyn Xie</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card shadow card-testimonial">
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h1 class="quote">&ldquo;</h1>
+                      </div>
+                      <p class="testi">
+                        The event was well organized, and I felt like the mentors
+                        explained everything nicely.
+                      </p>
+                      <p class="text-end by">Izat Syauqan Rasyad</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card shadow card-testimonial">
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h1 class="quote">&ldquo;</h1>
+                      </div>
+                      <p class="testi">
+                        The event was well organized, and I felt like the mentors
+                        explained everything nicely.
+                      </p>
+                      <p class="text-end by">Izat Syauqan Rasyad</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <!-- <div class="splide" role="group" id="slideTestimonial" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">Slide 01</li>
+                <li class="splide__slide">Slide 02</li>
+                <li class="splide__slide">Slide 03</li>
+              </ul>
+            </div>
+          </div> -->
+          
+          <!-- <div class="row align-items-center">
             <div class="col-md-4">
               <div class="card shadow card-testimonial">
                 <div class="card-body">
                   <div class="card-title">
                     <h1 class="quote">&ldquo;</h1>
                   </div>
+                  
                   <p class="testi">
                     I had a great time attending this event, it was really
                     enjoyable to learn from speakers, and I believe what I've
                     learned will be very useful to me.
                   </p>
-                  <p class="text-end by">Odelyn Xie</p>
+                  <div class="d-flex align-content-end flex-wrap">
+                    <p class="text-end by">Odelyn Xie</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1062,12 +978,23 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
       <section class="about-us position-relative" id="about-us">
         <div class="container text-center" data-aos="fade-up" data-aos-offset="70">
+          <img
+            src="assets/img/asset 3d 5.webp"
+            style="
+              width: 45%;
+              bottom: -10%;
+              left: 85%;
+              animation: up-bottom 3s ease-in-out alternate infinite;
+              z-index: -999;
+            "
+            class="ring position-absolute"
+          />
           <h1><b>About Us</b></h1>
           <p>
             We guide students who plan to study at top universities abroad and
@@ -1075,7 +1002,7 @@
             tailored consulting services, no matter where you are.
           </p>
           <div class="row align-items-center">
-            <div class="col-md-4">
+            <div class="col-md-4 col-6">
               <img
                 class="icon"
                 src="assets/img/about us icons-34.webp"
@@ -1083,7 +1010,7 @@
               />
               <p>100% Students placed at target universities</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-6">
               <img
                 class="icon"
                 src="assets/img/about us icons-35.webp"
@@ -1091,7 +1018,7 @@
               />
               <p>More than 40 School Clients</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-6">
               <img
                 class="icon"
                 src="assets/img/about us icons-36.webp"
@@ -1099,7 +1026,7 @@
               />
               <p>More than 1,000 Essays Reviewed</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-6">
               <img
                 class="icon"
                 src="assets/img/about us icons-37.webp"
@@ -1107,7 +1034,7 @@
               />
               <p>More than 50 Corporate Partners</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-6">
               <img
                 class="icon"
                 src="assets/img/about us icons-38.webp"
@@ -1115,7 +1042,7 @@
               />
               <p>150+ Point SAT Score Improvement</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-6">
               <img
                 class="icon"
                 src="assets/img/about us icons-39.webp"
@@ -1182,62 +1109,69 @@
         </div>
       </div>
     </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.6.3.min.js"
-      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
       AOS.init();
 
-      //   const navbar = document.querySelector(".navbar");
-
-      //   document.addEventListener("scroll", (event) => {
-      //     position = window.scrollY;
-
-      //     if (position === 0) {
-      //       navbar.classList.remove("active");
-      //     }
-      //   });
-
-      //   // const header = document.querySelector(".start-sticky");
-      //   const section = document.querySelector(".wrapper");
-
-      //   const sectionOneOptions = {
-      //     rootMargin: "-200px 0px 0px 0px",
-      //   };
-
-      //   const sectionOneObserver = new IntersectionObserver(function (
-      //     entries,
-      //     sectionOneObserver
-      //   ) {
-      //     entries.forEach((entry) => {
-      //       if (entry.isIntersecting) {
-      //         navbar.classList.add("active");
-      //       } else {
-      //         navbar.classList.remove("active");
-      //         // navbar.classList.add("d-none");
-      //       }
-      //     });
-      //   },
-      //   sectionOneOptions);
-      //   sectionOneObserver.observe(section);
       $(window).scroll(function () {
         let hT = $("#banner").offset().top,
           hH = $("#banner").outerHeight(),
           wH = $(window).height(),
           wS = $(this).scrollTop();
           tot = (hT+hH-wH)
-          console.log(wS +' - '+tot);
-
-        if(wS > tot){
+          
+          let FinanceT = $("#financial-analyst").offset().top,
+          FinanceH = $("#financial-analyst").outerHeight();
+          totFinance = (FinanceT+FinanceH-wH)
+          // console.log(wS +' - '+totFinance);
+          
+          let ResearchT = $("#environmental-researcher").offset().top,
+          ResearchH = $("#environmental-researcher").outerHeight();
+          totResearch = (ResearchT+ResearchH-wH)
+          
+          if(wS > tot){
             $('.navbar').addClass('active')
-        } else {
+          } else {
             $('.navbar').removeClass('active')
-        }
+          }
+          
+          if((wS > tot && wS < totFinance)){
+            $('#finance').addClass('active')
+          } else {
+              $('#finance').removeClass('active')
+          }
+      
+          if((wS > tot && wS > totFinance && wS < totResearch)){
+            $('#research').addClass('active')
+          } else {
+              $('#research').removeClass('active')
+          }
+
+
       });
     </script>
+
+     <!-- Splide  -->
+     <script>
+      new Splide('#slideTestimonial', {
+          perPage: 3,
+          width: '100%',
+          height: '50%',
+          gap: 20,
+          arrows: false,
+          breakpoints: {
+              767: {
+                  type: 'loop',
+                  perPage: 1,
+                  autoplay: true,
+                  interval: 5000,
+                  pauseOnHover: false,
+                  pauseOnFocus: false,
+              },
+          },
+      }).mount();
+  </script>
+
   </body>
   <script src="assets/js/bootstrap.js"></script>
 </html>

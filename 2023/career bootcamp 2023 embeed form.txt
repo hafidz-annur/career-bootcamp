@@ -1179,6 +1179,57 @@
       </div>
     </div>
 
+
+
+  // Form fauzan
+
+   <!-- <div class="card card-form">
+                            <div class="card-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label for="name" class="form-label">Name</label>
+                                  <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="email" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="phone" class="form-label">Phone Number</label>
+                                  <input type="number" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="curriculum" class="form-label">Curriculum</label>
+                                        <div class="select-radio d-flex">
+                                            <input type="radio" checked name="curriculum" class="form-control" id="a-level">
+                                            <label for="a-level" class="option a-level">
+                                                <span>A Level</span>
+                                            </label>
+                                            <input type="radio" name="curriculum" class="form-control" id="ib">
+                                            <label for="ib" class="option ib">
+                                                <span>IB</span>
+                                            </label>
+                                        </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="type_client" class="form-label">I am a..</label>
+                                        <div class="select-radio d-flex">
+                                            <input type="radio" name="type_client" class="form-control" id="student">
+                                            <label for="student" class="option student">
+                                                <span>Student</span>
+                                            </label>
+                                            <input type="radio" checked name="type_client" class="form-control" id="parent">
+                                            <label for="parent" class="option parent">
+                                                <span>Parent</span>
+                                            </label>
+                                        </div>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div> -->
   
 
   
