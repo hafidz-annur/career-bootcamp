@@ -212,6 +212,8 @@ body {
   background-color: #D1EAFF !important;
   border: 0;
   padding: 5px;
+  font-family: "coolvetica" !important;
+  letter-spacing: -0.5px !important;
 }
 .form .card-form .select-checkbox {
   height: 45px;
@@ -228,7 +230,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 10px 0;
   border-radius: 15px;
   cursor: pointer;
   padding: 0 10px;
@@ -236,14 +237,15 @@ body {
   transition: all 0.3s ease;
 }
 .form .card-form input[type=checkbox] + label {
-  height: 45px;
+  height: 40px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   text-align: center;
-  padding: 10px;
+  padding: 7px 15px;
   font-family: "coolvetica" !important;
-  letter-spacing: 1.2px;
+  font-size: 15px !important;
+  letter-spacing: 0.5px;
   color: #27387A !important;
 }
 .form .card-form input[type=checkbox]:checked:checked + label {
@@ -258,11 +260,12 @@ body {
   border: 0;
   height: 40px;
   border-radius: 15px !important;
+  letter-spacing: 2px !important;
   color: #27387A !important;
 }
 .form img {
   height: 300px;
-  width: 250px;
+  width: 280px;
 }
 
 .testimonial {
@@ -357,14 +360,21 @@ body {
     width: 100%;
   }
   .timeline img {
-    width: 90%;
+    width: 100%;
   }
   .wrapper {
     padding-left: 5% !important;
     padding-right: 5% !important;
   }
   .form img {
+    height: 280px !important;
     width: 300px !important;
+  }
+  .form #opt-env {
+    margin-top: 10px;
+  }
+  .form .ml-last-item {
+    padding-top: 20%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -390,9 +400,6 @@ body {
   .navbar .navbar-brand {
     margin-left: 10px !important;
   }
-  .ml-last-item {
-    padding-top: 20%;
-  }
   #opt-env {
     margin-top: 30px;
   }
@@ -400,7 +407,7 @@ body {
     top: 30%;
   }
   .banner-desc {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .content .content-img {
     width: 60% !important;
@@ -445,7 +452,8 @@ body {
     margin-top: 5% !important;
   }
   p {
-    font-size: 14px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
   }
   .banner-logo {
     width: 100px !important;

@@ -188,14 +188,14 @@
       }
       #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
         background-color: #ffffff !important;
-        color: #1d274b !important;
+        color: #27387A !important;
         /* border-color: #736767; */
         border-radius: 14px !important;
         border-style: solid !important;
         border-width: 1px !important;
         /* font-family: 'coolvetica'; */
         font-size: 16px !important;
-        font-weight: 600;
+        /* font-weight: 600; */
         height: auto;
         line-height: 21px !important;
         margin-bottom: 0;
@@ -373,7 +373,7 @@
         position: relative;
         display: block;
         min-height: 1.5rem;
-        padding-left: 1.5rem;
+        /* padding-left: 1.5rem; */
       }
 
       #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input, #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input, #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input, #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input {
@@ -386,7 +386,7 @@
 
       #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label, #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label, #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label, #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label {
           color: #fbfafa;
-          font-size: 15px!important;
+          font-size: 15px;
           font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
           line-height: 25px;
           margin-bottom: 0;
@@ -398,14 +398,14 @@
 
       #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-select, #mlb2-2926634.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-select {
         background-color: #ffffff !important;
-        color: #1d274b !important;
+        color: #27387A !important;
         /* border-color: #736767; */
         border-radius: 14px !important;
         border-style: solid !important;
         border-width: 1px !important;
         /* font-family: Verdana, Geneva, sans-serif; */
         font-size: 16px !important;
-        font-weight:600;
+        /* font-weight:500; */
         line-height: 20px !important;
         margin-bottom: 0;
         margin-top: 0;
@@ -532,7 +532,7 @@
         cursor: pointer;
         /* font-family: 'coolvetica'; */
         font-size: 16px !important;
-        font-weight: 700 !important;
+        font-weight: 500 !important;
         line-height: 21px !important;
         height: auto;
         padding: 10px !important;
