@@ -874,7 +874,7 @@
                       <div class="ml-form-successContent">
                         <h4>Thanks!</h4>
 
-                        <p style="text-align: center">
+                        <p class="text-dark" style="text-align: center">
                           Our team will contact you very soon
                         </p>
                         <p><br /></p>
@@ -1153,6 +1153,16 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v300817f630ad0e957914d0b28a2b6d78" type="text/javascript"></script>
+
+    <script>
+      function ml_webform_success_2926634() {
+        var $ = ml_jQuery || jQuery;
+        $('.ml-subscribe-form-2926634 .row-success').show();
+        $('.ml-subscribe-form-2926634 .row-form').hide();
+      }
+    </script>
 
     <script>
       AOS.init();
