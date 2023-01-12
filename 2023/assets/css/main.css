@@ -92,17 +92,14 @@ body {
 .booking {
   margin-top: 2.2em;
 }
-.booking .group-booking {
-  margin-left: 10%;
-}
 .booking .group-booking img {
-  width: 75%;
+  width: 45%;
 }
 .booking .price {
-  margin-left: -10%;
+  margin-left: -60% !important;
 }
 .booking .price img {
-  width: 75%;
+  width: 85% !important;
 }
 
 .what-will-you-get {
@@ -351,14 +348,11 @@ body {
     padding-left: 5% !important;
     padding-right: 5% !important;
   }
-  .booking .group-booking {
-    margin-left: -1%;
-  }
   .booking .group-booking img {
-    width: 85%;
+    width: 50%;
   }
   .booking .price {
-    margin-left: 1%;
+    margin-left: -5%;
   }
   .booking .price img {
     width: 85%;
@@ -441,7 +435,7 @@ body {
     margin-top: 0 !important;
   }
   .testimonial .card-testimonial .testi {
-    margin-top: 0 !important;
+    margin-top: -30px !important;
   }
   .about-us p {
     font-size: 1em;

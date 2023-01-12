@@ -104,16 +104,16 @@ body {
 .booking{
     margin-top: 2.2em;
     .group-booking{
-        margin-left: 10%;
+        // margin-left: 10%;
         img{
-            width: 75%;
+            width: 45%;
         }
     }
 
     .price{
-        margin-left: -10%;
+        margin-left: -60% !important;
         img{
-            width: 75%;
+            width: 85% !important;
         }
     }
 }
@@ -350,7 +350,9 @@ body {
             letter-spacing: 2px !important;
             color: #27387A !important;
        }
+
     }
+    
 
     img{
         height: 300px;
@@ -466,14 +468,14 @@ body {
     .booking{
         // margin-top: 2.2em;
         .group-booking{
-            margin-left: -1%;
+            // margin-left: -1%;
             img{
-                width: 85%;
+                width: 50%;
             }
         }
     
         .price{
-            margin-left: 1%;
+            margin-left: -5%;
             img{
                 width: 85%;
             }
@@ -609,7 +611,7 @@ body {
             }
             
             .testi{
-                margin-top: 0 !important;
+                margin-top: -30px !important;
                 
             }
         }
