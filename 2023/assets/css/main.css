@@ -126,13 +126,14 @@ body {
   text-align: justify;
 }
 .content .career-prospect {
-  margin-top: 7%;
+  margin-top: 2%;
 }
 .content .career-prospect .prospect img {
   width: 45%;
 }
 
 .timeline {
+  margin-top: 5%;
   margin-bottom: 4%;
 }
 .timeline img {
