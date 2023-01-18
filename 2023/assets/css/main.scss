@@ -281,6 +281,11 @@ body {
         //     border-radius: 10px;
         // }
 
+        .title-form{
+            color: #27387A !important;
+            font-family: 'coolvetica' !important;
+        }
+
         .select-checkbox{
             height: 45px;
             width: 300px;
@@ -333,6 +338,15 @@ body {
                 background-color: #F4E556;
             }
         }
+
+        .radio2{
+            width: 70px !important;
+        }
+  
+        #no{
+            margin-left: 4px;
+        }
+
 
         // input[type="checkbox"] {
         //     display: none;
@@ -512,10 +526,12 @@ body {
             margin-top: 10px;
         }
 
-        .ml-last-item{
-            padding-top: 20%;
-        }
+      
     }
+
+        .padding-48 {
+            padding-top: 48px !important;
+        }
 
 
 }
@@ -639,6 +655,8 @@ body {
             font-size: 2.2em;
         }
     }
+
+          
 
 }
 

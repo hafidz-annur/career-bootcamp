@@ -213,6 +213,10 @@ body {
   font-family: "coolvetica" !important;
   letter-spacing: -0.5px !important;
 }
+.form .card-form .title-form {
+  color: #27387A !important;
+  font-family: "coolvetica" !important;
+}
 .form .card-form .select-checkbox {
   height: 45px;
   width: 300px;
@@ -252,6 +256,12 @@ body {
 }
 .form .card-form input[type=radio]:checked:disabled + label {
   background-color: #F4E556;
+}
+.form .card-form .radio2 {
+  width: 70px !important;
+}
+.form .card-form #no {
+  margin-left: 4px;
 }
 .form .card-form .btn-submit {
   background-color: #FCCA47 !important;
@@ -375,8 +385,8 @@ body {
   .form #opt-env {
     margin-top: 10px;
   }
-  .form .ml-last-item {
-    padding-top: 20%;
+  .padding-48 {
+    padding-top: 48px !important;
   }
 }
 @media screen and (max-width: 768px) {
