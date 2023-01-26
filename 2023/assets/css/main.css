@@ -129,7 +129,10 @@ body {
   margin-top: 2%;
 }
 .content .career-prospect .prospect img {
-  width: 45%;
+  width: 85%;
+}
+.content .career-prospect .professionals img {
+  width: 40%;
 }
 
 .timeline {
